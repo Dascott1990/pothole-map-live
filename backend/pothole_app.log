@@ -9869,3 +9869,741 @@
 2025-10-19 13:29:20,760 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:20] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXCHr&sid=nnoA1dCMBoqg-kv2AAGw HTTP/1.1[0m" 400 -
 2025-10-19 13:29:21,637 INFO engineio.server HR2mvKGMqbVkfiz7AAGl: Client is gone, closing socket
 2025-10-19 13:29:21,637 INFO engineio.server HR2mvKGMqbVkfiz7AAGl: Client is gone, closing socket
+2025-10-19 13:29:22,643 INFO engineio.server 3AkA_RwYGGHZ1V3nAAGm: Client is gone, closing socket
+2025-10-19 13:29:22,643 INFO engineio.server 3AkA_RwYGGHZ1V3nAAGm: Client is gone, closing socket
+2025-10-19 13:29:22,744 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:22] "GET /socket.io/?EIO=4&transport=polling&t=PdzX6gG&sid=4UrHcVsz4OsYqB4qAAGr HTTP/1.1" 200 -
+2025-10-19 13:29:22,743 INFO engineio.server 4UrHcVsz4OsYqB4qAAGr: Sending packet PING data None
+2025-10-19 13:29:22,753 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:22,754 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:22] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXCHv&sid=nnoA1dCMBoqg-kv2AAGw HTTP/1.1[0m" 400 -
+2025-10-19 13:29:22,755 INFO engineio.server CXkZvxDEJbKob9hqAAGx: Sending packet OPEN data {'sid': 'CXkZvxDEJbKob9hqAAGx', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:29:22,756 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:22] "GET /socket.io/?EIO=4&transport=polling&t=PdzXCgm HTTP/1.1" 200 -
+2025-10-19 13:29:22,761 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:22,761 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:22] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXCn7&sid=CXkZvxDEJbKob9hqAAGx HTTP/1.1[0m" 400 -
+2025-10-19 13:29:23,649 INFO engineio.server ksuRgWRRM-AzF1AZAAGn: Client is gone, closing socket
+2025-10-19 13:29:23,651 INFO engineio.server ksuRgWRRM-AzF1AZAAGn: Client is gone, closing socket
+2025-10-19 13:29:24,715 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:24] "GET /socket.io/?EIO=4&transport=polling&t=PdzX793&sid=3ObRMRb8_kDE0_6-AAGs HTTP/1.1" 200 -
+2025-10-19 13:29:24,715 INFO engineio.server 3ObRMRb8_kDE0_6-AAGs: Sending packet PING data None
+2025-10-19 13:29:24,718 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:24,718 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:24] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXCnA&sid=CXkZvxDEJbKob9hqAAGx HTTP/1.1[0m" 400 -
+2025-10-19 13:29:24,726 INFO engineio.server RJV7vpq3izVAfX9mAAGy: Sending packet OPEN data {'sid': 'RJV7vpq3izVAfX9mAAGy', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:29:24,728 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:24] "GET /socket.io/?EIO=4&transport=polling&t=PdzXD9- HTTP/1.1" 200 -
+2025-10-19 13:29:24,730 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:24,731 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:24] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXDFv&sid=RJV7vpq3izVAfX9mAAGy HTTP/1.1[0m" 400 -
+2025-10-19 13:29:26,657 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:26] "GET /socket.io/?EIO=4&transport=polling&t=PdzX7dT&sid=PsruKJFvobSr7wBEAAGt HTTP/1.1" 200 -
+2025-10-19 13:29:26,657 INFO engineio.server PsruKJFvobSr7wBEAAGt: Sending packet PING data None
+2025-10-19 13:29:26,660 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:26,660 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:26] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXDFx&sid=RJV7vpq3izVAfX9mAAGy HTTP/1.1[0m" 400 -
+2025-10-19 13:29:26,661 INFO engineio.server GNqmM_3Jx1AUu-bDAAGz: Sending packet OPEN data {'sid': 'GNqmM_3Jx1AUu-bDAAGz', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:29:26,661 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:26] "GET /socket.io/?EIO=4&transport=polling&t=PdzXDfE HTTP/1.1" 200 -
+2025-10-19 13:29:26,666 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:26,666 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:26] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXDk7&sid=GNqmM_3Jx1AUu-bDAAGz HTTP/1.1[0m" 400 -
+2025-10-19 13:29:31,614 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Sending packet PING data None
+2025-10-19 13:29:31,624 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Received packet PONG data 
+2025-10-19 13:29:31,932 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:31] "GET /socket.io/?EIO=4&transport=polling&t=PdzX8vp&sid=M01a6R51ka8UneWhAAGu HTTP/1.1" 200 -
+2025-10-19 13:29:31,931 INFO engineio.server M01a6R51ka8UneWhAAGu: Sending packet PING data None
+2025-10-19 13:29:31,936 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:31,937 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:31] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXDkC&sid=GNqmM_3Jx1AUu-bDAAGz HTTP/1.1[0m" 400 -
+2025-10-19 13:29:31,941 INFO engineio.server 65hCc9jEpUMXoqP2AAG0: Sending packet OPEN data {'sid': '65hCc9jEpUMXoqP2AAG0', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:29:31,941 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:31] "GET /socket.io/?EIO=4&transport=polling&t=PdzXDus HTTP/1.1" 200 -
+2025-10-19 13:29:31,947 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:31,947 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:31] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXF0d&sid=65hCc9jEpUMXoqP2AAG0 HTTP/1.1[0m" 400 -
+2025-10-19 13:29:37,267 INFO engineio.server YwTyrQXB68_l2RU0AABS: Sending packet PING data None
+2025-10-19 13:29:37,273 INFO engineio.server YwTyrQXB68_l2RU0AABS: Received packet PONG data 
+2025-10-19 13:29:39,080 INFO engineio.server QwWWxQ6krq3HEdZbAAGo: Client is gone, closing socket
+2025-10-19 13:29:39,081 INFO engineio.server QwWWxQ6krq3HEdZbAAGo: Client is gone, closing socket
+2025-10-19 13:29:40,139 INFO engineio.server tHvGHps1LBBo0GaQAAGp: Client is gone, closing socket
+2025-10-19 13:29:40,140 INFO engineio.server tHvGHps1LBBo0GaQAAGp: Client is gone, closing socket
+2025-10-19 13:29:41,198 INFO engineio.server VydkhRr5RUpThI6HAAGq: Client is gone, closing socket
+2025-10-19 13:29:41,199 INFO engineio.server VydkhRr5RUpThI6HAAGq: Client is gone, closing socket
+2025-10-19 13:29:43,566 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:43] "GET /socket.io/?EIO=4&transport=polling&t=PdzXBla&sid=BWueCkwe2mpUuuyXAAGv HTTP/1.1" 200 -
+2025-10-19 13:29:43,564 INFO engineio.server BWueCkwe2mpUuuyXAAGv: Sending packet PING data None
+2025-10-19 13:29:43,575 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:43,575 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:43] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXF0j&sid=65hCc9jEpUMXoqP2AAG0 HTTP/1.1[0m" 400 -
+2025-10-19 13:29:43,578 INFO engineio.server NV27yFE_pHE88wfvAAG1: Sending packet OPEN data {'sid': 'NV27yFE_pHE88wfvAAG1', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:29:43,579 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:43] "GET /socket.io/?EIO=4&transport=polling&t=PdzXFMb HTTP/1.1" 200 -
+2025-10-19 13:29:43,606 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:43,606 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:43] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXHsg&sid=NV27yFE_pHE88wfvAAG1 HTTP/1.1[0m" 400 -
+2025-10-19 13:29:45,762 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:45] "GET /socket.io/?EIO=4&transport=polling&t=PdzXCHs&sid=nnoA1dCMBoqg-kv2AAGw HTTP/1.1" 200 -
+2025-10-19 13:29:45,761 INFO engineio.server nnoA1dCMBoqg-kv2AAGw: Sending packet PING data None
+2025-10-19 13:29:45,764 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:45,764 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:45] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXHsx&sid=NV27yFE_pHE88wfvAAG1 HTTP/1.1[0m" 400 -
+2025-10-19 13:29:45,765 INFO engineio.server qvLjAu8H8Vbv2fB3AAG2: Sending packet OPEN data {'sid': 'qvLjAu8H8Vbv2fB3AAG2', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:29:45,766 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:45] "GET /socket.io/?EIO=4&transport=polling&t=PdzXII5 HTTP/1.1" 200 -
+2025-10-19 13:29:45,767 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:45,767 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:45] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXIOc&sid=qvLjAu8H8Vbv2fB3AAG2 HTTP/1.1[0m" 400 -
+2025-10-19 13:29:47,761 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:47] "GET /socket.io/?EIO=4&transport=polling&t=PdzXCn7.0&sid=CXkZvxDEJbKob9hqAAGx HTTP/1.1" 200 -
+2025-10-19 13:29:47,761 INFO engineio.server CXkZvxDEJbKob9hqAAGx: Sending packet PING data None
+2025-10-19 13:29:47,764 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:47,765 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:47] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXIOe&sid=qvLjAu8H8Vbv2fB3AAG2 HTTP/1.1[0m" 400 -
+2025-10-19 13:29:47,768 INFO engineio.server B9DJ2j2J7NtmS-9QAAG3: Sending packet OPEN data {'sid': 'B9DJ2j2J7NtmS-9QAAG3', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:29:47,768 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:47] "GET /socket.io/?EIO=4&transport=polling&t=PdzXInM HTTP/1.1" 200 -
+2025-10-19 13:29:47,772 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:47,772 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:47] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXItw&sid=B9DJ2j2J7NtmS-9QAAG3 HTTP/1.1[0m" 400 -
+2025-10-19 13:29:49,733 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:49] "GET /socket.io/?EIO=4&transport=polling&t=PdzXDFw&sid=RJV7vpq3izVAfX9mAAGy HTTP/1.1" 200 -
+2025-10-19 13:29:49,732 INFO engineio.server RJV7vpq3izVAfX9mAAGy: Sending packet PING data None
+2025-10-19 13:29:49,738 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:49,739 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:49] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXItz&sid=B9DJ2j2J7NtmS-9QAAG3 HTTP/1.1[0m" 400 -
+2025-10-19 13:29:49,741 INFO engineio.server lI6oxzOkL1UHDigiAAG4: Sending packet OPEN data {'sid': 'lI6oxzOkL1UHDigiAAG4', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:29:49,742 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:49] "GET /socket.io/?EIO=4&transport=polling&t=PdzXJGb HTTP/1.1" 200 -
+2025-10-19 13:29:49,747 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:49,747 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:49] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXJMm&sid=lI6oxzOkL1UHDigiAAG4 HTTP/1.1[0m" 400 -
+2025-10-19 13:29:51,669 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:51] "GET /socket.io/?EIO=4&transport=polling&t=PdzXDk8&sid=GNqmM_3Jx1AUu-bDAAGz HTTP/1.1" 200 -
+2025-10-19 13:29:51,668 INFO engineio.server GNqmM_3Jx1AUu-bDAAGz: Sending packet PING data None
+2025-10-19 13:29:51,675 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:51,676 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:51] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXJMr&sid=lI6oxzOkL1UHDigiAAG4 HTTP/1.1[0m" 400 -
+2025-10-19 13:29:51,678 INFO engineio.server cGClELhYW43Nvyq4AAG5: Sending packet OPEN data {'sid': 'cGClELhYW43Nvyq4AAG5', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:29:51,693 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:51] "GET /socket.io/?EIO=4&transport=polling&t=PdzXJlu HTTP/1.1" 200 -
+2025-10-19 13:29:51,699 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:51,699 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:51] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXJrG&sid=cGClELhYW43Nvyq4AAG5 HTTP/1.1[0m" 400 -
+2025-10-19 13:29:56,627 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Sending packet PING data None
+2025-10-19 13:29:56,639 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Received packet PONG data 
+2025-10-19 13:29:56,787 INFO engineio.server 4UrHcVsz4OsYqB4qAAGr: Client is gone, closing socket
+2025-10-19 13:29:56,787 INFO engineio.server 4UrHcVsz4OsYqB4qAAGr: Client is gone, closing socket
+2025-10-19 13:29:56,944 INFO engineio.server 65hCc9jEpUMXoqP2AAG0: Sending packet PING data None
+2025-10-19 13:29:56,944 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:56] "GET /socket.io/?EIO=4&transport=polling&t=PdzXF0f&sid=65hCc9jEpUMXoqP2AAG0 HTTP/1.1" 200 -
+2025-10-19 13:29:56,947 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:56,947 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:56] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXJrK&sid=cGClELhYW43Nvyq4AAG5 HTTP/1.1[0m" 400 -
+2025-10-19 13:29:56,948 INFO engineio.server 4i2bj-Nbv-gmyPFhAAG6: Sending packet OPEN data {'sid': '4i2bj-Nbv-gmyPFhAAG6', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:29:56,948 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:56] "GET /socket.io/?EIO=4&transport=polling&t=PdzXKF5 HTTP/1.1" 200 -
+2025-10-19 13:29:56,961 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:29:56,961 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:29:56] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXL7L&sid=4i2bj-Nbv-gmyPFhAAG6 HTTP/1.1[0m" 400 -
+2025-10-19 13:29:57,794 INFO engineio.server 3ObRMRb8_kDE0_6-AAGs: Client is gone, closing socket
+2025-10-19 13:29:57,795 INFO engineio.server 3ObRMRb8_kDE0_6-AAGs: Client is gone, closing socket
+2025-10-19 13:29:58,795 INFO engineio.server PsruKJFvobSr7wBEAAGt: Client is gone, closing socket
+2025-10-19 13:29:58,796 INFO engineio.server PsruKJFvobSr7wBEAAGt: Client is gone, closing socket
+2025-10-19 13:29:59,797 INFO engineio.server M01a6R51ka8UneWhAAGu: Client is gone, closing socket
+2025-10-19 13:29:59,798 INFO engineio.server M01a6R51ka8UneWhAAGu: Client is gone, closing socket
+2025-10-19 13:30:02,280 INFO engineio.server YwTyrQXB68_l2RU0AABS: Sending packet PING data None
+2025-10-19 13:30:02,287 INFO engineio.server YwTyrQXB68_l2RU0AABS: Received packet PONG data 
+2025-10-19 13:30:08,582 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:08] "GET /socket.io/?EIO=4&transport=polling&t=PdzXHsk&sid=NV27yFE_pHE88wfvAAG1 HTTP/1.1" 200 -
+2025-10-19 13:30:08,581 INFO engineio.server NV27yFE_pHE88wfvAAG1: Sending packet PING data None
+2025-10-19 13:30:08,587 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:08,587 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:08] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXL7Y&sid=4i2bj-Nbv-gmyPFhAAG6 HTTP/1.1[0m" 400 -
+2025-10-19 13:30:08,589 INFO engineio.server yTUAnixgKkZ_ig1PAAG7: Sending packet OPEN data {'sid': 'yTUAnixgKkZ_ig1PAAG7', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:30:08,589 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:08] "GET /socket.io/?EIO=4&transport=polling&t=PdzXLir HTTP/1.1" 200 -
+2025-10-19 13:30:08,593 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:08,593 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:08] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXNzF&sid=yTUAnixgKkZ_ig1PAAG7 HTTP/1.1[0m" 400 -
+2025-10-19 13:30:10,771 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:10] "GET /socket.io/?EIO=4&transport=polling&t=PdzXIOd&sid=qvLjAu8H8Vbv2fB3AAG2 HTTP/1.1" 200 -
+2025-10-19 13:30:10,770 INFO engineio.server qvLjAu8H8Vbv2fB3AAG2: Sending packet PING data None
+2025-10-19 13:30:10,774 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:10,774 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:10] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXNzI&sid=yTUAnixgKkZ_ig1PAAG7 HTTP/1.1[0m" 400 -
+2025-10-19 13:30:10,776 INFO engineio.server aw-tu3XJvZQddHYAAAG8: Sending packet OPEN data {'sid': 'aw-tu3XJvZQddHYAAAG8', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:30:10,776 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:10] "GET /socket.io/?EIO=4&transport=polling&t=PdzXOOj HTTP/1.1" 200 -
+2025-10-19 13:30:10,780 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:10,781 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:10] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXOVQ&sid=aw-tu3XJvZQddHYAAAG8 HTTP/1.1[0m" 400 -
+2025-10-19 13:30:12,774 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:12] "GET /socket.io/?EIO=4&transport=polling&t=PdzXItx&sid=B9DJ2j2J7NtmS-9QAAG3 HTTP/1.1" 200 -
+2025-10-19 13:30:12,773 INFO engineio.server B9DJ2j2J7NtmS-9QAAG3: Sending packet PING data None
+2025-10-19 13:30:12,777 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:12,777 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:12] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXOVU&sid=aw-tu3XJvZQddHYAAAG8 HTTP/1.1[0m" 400 -
+2025-10-19 13:30:12,778 INFO engineio.server FIARmKbC9a7fc-85AAG9: Sending packet OPEN data {'sid': 'FIARmKbC9a7fc-85AAG9', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:30:12,779 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:12] "GET /socket.io/?EIO=4&transport=polling&t=PdzXOtz HTTP/1.1" 200 -
+2025-10-19 13:30:12,781 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:12,782 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:12] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXO-i&sid=FIARmKbC9a7fc-85AAG9 HTTP/1.1[0m" 400 -
+2025-10-19 13:30:14,747 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:14] "GET /socket.io/?EIO=4&transport=polling&t=PdzXJMn&sid=lI6oxzOkL1UHDigiAAG4 HTTP/1.1" 200 -
+2025-10-19 13:30:14,746 INFO engineio.server lI6oxzOkL1UHDigiAAG4: Sending packet PING data None
+2025-10-19 13:30:14,751 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:14,752 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:14] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXO-k&sid=FIARmKbC9a7fc-85AAG9 HTTP/1.1[0m" 400 -
+2025-10-19 13:30:14,755 INFO engineio.server aasDEZyHMsMXvZgzAAG-: Sending packet OPEN data {'sid': 'aasDEZyHMsMXvZgzAAG-', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:30:14,757 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:14] "GET /socket.io/?EIO=4&transport=polling&t=PdzXPND HTTP/1.1" 200 -
+2025-10-19 13:30:14,763 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:14,763 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:14] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXPTd&sid=aasDEZyHMsMXvZgzAAG- HTTP/1.1[0m" 400 -
+2025-10-19 13:30:16,685 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:16] "GET /socket.io/?EIO=4&transport=polling&t=PdzXJrH&sid=cGClELhYW43Nvyq4AAG5 HTTP/1.1" 200 -
+2025-10-19 13:30:16,684 INFO engineio.server cGClELhYW43Nvyq4AAG5: Sending packet PING data None
+2025-10-19 13:30:16,691 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:16,691 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:16] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXPTj&sid=aasDEZyHMsMXvZgzAAG- HTTP/1.1[0m" 400 -
+2025-10-19 13:30:16,693 INFO engineio.server 2pY4tDYmPY76lbpFAAG_: Sending packet OPEN data {'sid': '2pY4tDYmPY76lbpFAAG_', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:30:16,693 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:16] "GET /socket.io/?EIO=4&transport=polling&t=PdzXPsT HTTP/1.1" 200 -
+2025-10-19 13:30:16,696 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:16,697 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:16] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXPxt&sid=2pY4tDYmPY76lbpFAAG_ HTTP/1.1[0m" 400 -
+2025-10-19 13:30:17,872 INFO engineio.server BWueCkwe2mpUuuyXAAGv: Client is gone, closing socket
+2025-10-19 13:30:17,872 INFO engineio.server BWueCkwe2mpUuuyXAAGv: Client is gone, closing socket
+2025-10-19 13:30:18,878 INFO engineio.server nnoA1dCMBoqg-kv2AAGw: Client is gone, closing socket
+2025-10-19 13:30:18,878 INFO engineio.server nnoA1dCMBoqg-kv2AAGw: Client is gone, closing socket
+2025-10-19 13:30:19,883 INFO engineio.server CXkZvxDEJbKob9hqAAGx: Client is gone, closing socket
+2025-10-19 13:30:19,885 INFO engineio.server CXkZvxDEJbKob9hqAAGx: Client is gone, closing socket
+2025-10-19 13:30:20,888 INFO engineio.server RJV7vpq3izVAfX9mAAGy: Client is gone, closing socket
+2025-10-19 13:30:20,889 INFO engineio.server RJV7vpq3izVAfX9mAAGy: Client is gone, closing socket
+2025-10-19 13:30:21,639 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Sending packet PING data None
+2025-10-19 13:30:21,644 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Received packet PONG data 
+2025-10-19 13:30:21,893 INFO engineio.server GNqmM_3Jx1AUu-bDAAGz: Client is gone, closing socket
+2025-10-19 13:30:21,893 INFO engineio.server GNqmM_3Jx1AUu-bDAAGz: Client is gone, closing socket
+2025-10-19 13:30:21,953 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:21] "GET /socket.io/?EIO=4&transport=polling&t=PdzXL7M&sid=4i2bj-Nbv-gmyPFhAAG6 HTTP/1.1" 200 -
+2025-10-19 13:30:21,953 INFO engineio.server 4i2bj-Nbv-gmyPFhAAG6: Sending packet PING data None
+2025-10-19 13:30:21,955 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:21,956 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:21] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXPxw&sid=2pY4tDYmPY76lbpFAAG_ HTTP/1.1[0m" 400 -
+2025-10-19 13:30:21,957 INFO engineio.server HW09kT3haKJua5qPAAHA: Sending packet OPEN data {'sid': 'HW09kT3haKJua5qPAAHA', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:30:21,957 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:21] "GET /socket.io/?EIO=4&transport=polling&t=PdzXQLj HTTP/1.1" 200 -
+2025-10-19 13:30:21,959 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:21,959 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:21] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXRE6&sid=HW09kT3haKJua5qPAAHA HTTP/1.1[0m" 400 -
+2025-10-19 13:30:22,898 INFO engineio.server 65hCc9jEpUMXoqP2AAG0: Client is gone, closing socket
+2025-10-19 13:30:22,899 INFO engineio.server 65hCc9jEpUMXoqP2AAG0: Client is gone, closing socket
+2025-10-19 13:30:27,292 INFO engineio.server YwTyrQXB68_l2RU0AABS: Sending packet PING data None
+2025-10-19 13:30:27,297 INFO engineio.server YwTyrQXB68_l2RU0AABS: Received packet PONG data 
+2025-10-19 13:30:33,592 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:33] "GET /socket.io/?EIO=4&transport=polling&t=PdzXNzG&sid=yTUAnixgKkZ_ig1PAAG7 HTTP/1.1" 200 -
+2025-10-19 13:30:33,590 INFO engineio.server yTUAnixgKkZ_ig1PAAG7: Sending packet PING data None
+2025-10-19 13:30:33,604 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:33,604 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:33] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXRE8&sid=HW09kT3haKJua5qPAAHA HTTP/1.1[0m" 400 -
+2025-10-19 13:30:33,609 INFO engineio.server 5encmbuIE0NAX9zoAAHB: Sending packet OPEN data {'sid': '5encmbuIE0NAX9zoAAHB', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:30:33,610 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:33] "GET /socket.io/?EIO=4&transport=polling&t=PdzXRZr HTTP/1.1" 200 -
+2025-10-19 13:30:33,614 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:33,614 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:33] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXU4B&sid=5encmbuIE0NAX9zoAAHB HTTP/1.1[0m" 400 -
+2025-10-19 13:30:35,782 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:35] "GET /socket.io/?EIO=4&transport=polling&t=PdzXOVR&sid=aw-tu3XJvZQddHYAAAG8 HTTP/1.1" 200 -
+2025-10-19 13:30:35,781 INFO engineio.server aw-tu3XJvZQddHYAAAG8: Sending packet PING data None
+2025-10-19 13:30:35,787 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:35,787 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:35] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXU4F&sid=5encmbuIE0NAX9zoAAHB HTTP/1.1[0m" 400 -
+2025-10-19 13:30:35,790 INFO engineio.server 7XJXGr0qMdrlLnysAAHC: Sending packet OPEN data {'sid': '7XJXGr0qMdrlLnysAAHC', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:30:35,790 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:35] "GET /socket.io/?EIO=4&transport=polling&t=PdzXUVL HTTP/1.1" 200 -
+2025-10-19 13:30:35,797 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:35,797 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:35] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXUcH&sid=7XJXGr0qMdrlLnysAAHC HTTP/1.1[0m" 400 -
+2025-10-19 13:30:37,784 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:37] "GET /socket.io/?EIO=4&transport=polling&t=PdzXO-j&sid=FIARmKbC9a7fc-85AAG9 HTTP/1.1" 200 -
+2025-10-19 13:30:37,783 INFO engineio.server FIARmKbC9a7fc-85AAG9: Sending packet PING data None
+2025-10-19 13:30:37,788 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:37,789 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:37] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXUcM&sid=7XJXGr0qMdrlLnysAAHC HTTP/1.1[0m" 400 -
+2025-10-19 13:30:37,791 INFO engineio.server sIB_UmljpTLWgFNJAAHD: Sending packet OPEN data {'sid': 'sIB_UmljpTLWgFNJAAHD', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:30:37,792 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:37] "GET /socket.io/?EIO=4&transport=polling&t=PdzXU-a HTTP/1.1" 200 -
+2025-10-19 13:30:37,798 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:37,798 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:37] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXV5Y&sid=sIB_UmljpTLWgFNJAAHD HTTP/1.1[0m" 400 -
+2025-10-19 13:30:39,762 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:39] "GET /socket.io/?EIO=4&transport=polling&t=PdzXPTf&sid=aasDEZyHMsMXvZgzAAG- HTTP/1.1" 200 -
+2025-10-19 13:30:39,761 INFO engineio.server aasDEZyHMsMXvZgzAAG-: Sending packet PING data None
+2025-10-19 13:30:39,765 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:39,766 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:39] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXV5e&sid=sIB_UmljpTLWgFNJAAHD HTTP/1.1[0m" 400 -
+2025-10-19 13:30:39,768 INFO engineio.server WUOnC0UEfMJlvvhpAAHE: Sending packet OPEN data {'sid': 'WUOnC0UEfMJlvvhpAAHE', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:30:39,768 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:39] "GET /socket.io/?EIO=4&transport=polling&t=PdzXVTq HTTP/1.1" 200 -
+2025-10-19 13:30:39,773 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:39,773 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:39] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXVaQ&sid=WUOnC0UEfMJlvvhpAAHE HTTP/1.1[0m" 400 -
+2025-10-19 13:30:39,963 INFO engineio.server NV27yFE_pHE88wfvAAG1: Client is gone, closing socket
+2025-10-19 13:30:39,964 INFO engineio.server NV27yFE_pHE88wfvAAG1: Client is gone, closing socket
+2025-10-19 13:30:40,969 INFO engineio.server qvLjAu8H8Vbv2fB3AAG2: Client is gone, closing socket
+2025-10-19 13:30:40,970 INFO engineio.server qvLjAu8H8Vbv2fB3AAG2: Client is gone, closing socket
+2025-10-19 13:30:41,695 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:41] "GET /socket.io/?EIO=4&transport=polling&t=PdzXPxt.0&sid=2pY4tDYmPY76lbpFAAG_ HTTP/1.1" 200 -
+2025-10-19 13:30:41,694 INFO engineio.server 2pY4tDYmPY76lbpFAAG_: Sending packet PING data None
+2025-10-19 13:30:41,699 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:41,699 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:41] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXVaW&sid=WUOnC0UEfMJlvvhpAAHE HTTP/1.1[0m" 400 -
+2025-10-19 13:30:41,702 INFO engineio.server xJe-x8MBowuYqMRzAAHF: Sending packet OPEN data {'sid': 'xJe-x8MBowuYqMRzAAHF', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:30:41,702 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:41] "GET /socket.io/?EIO=4&transport=polling&t=PdzXVz5 HTTP/1.1" 200 -
+2025-10-19 13:30:41,708 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:41,709 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:41] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXW2e&sid=xJe-x8MBowuYqMRzAAHF HTTP/1.1[0m" 400 -
+2025-10-19 13:30:41,972 INFO engineio.server B9DJ2j2J7NtmS-9QAAG3: Client is gone, closing socket
+2025-10-19 13:30:41,972 INFO engineio.server B9DJ2j2J7NtmS-9QAAG3: Client is gone, closing socket
+2025-10-19 13:30:42,977 INFO engineio.server lI6oxzOkL1UHDigiAAG4: Client is gone, closing socket
+2025-10-19 13:30:42,978 INFO engineio.server lI6oxzOkL1UHDigiAAG4: Client is gone, closing socket
+2025-10-19 13:30:43,981 INFO engineio.server cGClELhYW43Nvyq4AAG5: Client is gone, closing socket
+2025-10-19 13:30:43,982 INFO engineio.server cGClELhYW43Nvyq4AAG5: Client is gone, closing socket
+2025-10-19 13:30:44,984 INFO engineio.server 4i2bj-Nbv-gmyPFhAAG6: Client is gone, closing socket
+2025-10-19 13:30:44,984 INFO engineio.server 4i2bj-Nbv-gmyPFhAAG6: Client is gone, closing socket
+2025-10-19 13:30:46,647 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Sending packet PING data None
+2025-10-19 13:30:46,655 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Received packet PONG data 
+2025-10-19 13:30:46,961 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:46] "GET /socket.io/?EIO=4&transport=polling&t=PdzXRE6.0&sid=HW09kT3haKJua5qPAAHA HTTP/1.1" 200 -
+2025-10-19 13:30:46,960 INFO engineio.server HW09kT3haKJua5qPAAHA: Sending packet PING data None
+2025-10-19 13:30:46,964 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:46,965 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:46] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXW2l&sid=xJe-x8MBowuYqMRzAAHF HTTP/1.1[0m" 400 -
+2025-10-19 13:30:46,966 INFO engineio.server 67DJusOWsjqr_zpWAAHG: Sending packet OPEN data {'sid': '67DJusOWsjqr_zpWAAHG', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:30:46,967 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:46] "GET /socket.io/?EIO=4&transport=polling&t=PdzXWSK HTTP/1.1" 200 -
+2025-10-19 13:30:46,969 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:46,970 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:46] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXXKu&sid=67DJusOWsjqr_zpWAAHG HTTP/1.1[0m" 400 -
+2025-10-19 13:30:52,297 INFO engineio.server YwTyrQXB68_l2RU0AABS: Sending packet PING data None
+2025-10-19 13:30:52,301 INFO engineio.server YwTyrQXB68_l2RU0AABS: Received packet PONG data 
+2025-10-19 13:30:58,613 INFO engineio.server 5encmbuIE0NAX9zoAAHB: Sending packet PING data None
+2025-10-19 13:30:58,626 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:58] "GET /socket.io/?EIO=4&transport=polling&t=PdzXU4C&sid=5encmbuIE0NAX9zoAAHB HTTP/1.1" 200 -
+2025-10-19 13:30:58,639 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:58,641 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:58] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXXKw&sid=67DJusOWsjqr_zpWAAHG HTTP/1.1[0m" 400 -
+2025-10-19 13:30:58,646 INFO engineio.server a7QQT8X-QX4w_FJpAAHH: Sending packet OPEN data {'sid': 'a7QQT8X-QX4w_FJpAAHH', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:30:58,647 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:58] "GET /socket.io/?EIO=4&transport=polling&t=PdzXXgS HTTP/1.1" 200 -
+2025-10-19 13:30:58,669 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:58,669 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:58] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXaBS&sid=a7QQT8X-QX4w_FJpAAHH HTTP/1.1[0m" 400 -
+2025-10-19 13:30:58,669 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:30:58,670 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:30:58] "[31m[1mGET /socket.io/?EIO=4&transport=websocket&sid=a7QQT8X-QX4w_FJpAAHH HTTP/1.1[0m" 400 -
+2025-10-19 13:31:00,039 INFO engineio.server yTUAnixgKkZ_ig1PAAG7: Client is gone, closing socket
+2025-10-19 13:31:00,040 INFO engineio.server yTUAnixgKkZ_ig1PAAG7: Client is gone, closing socket
+2025-10-19 13:31:00,792 INFO engineio.server 7XJXGr0qMdrlLnysAAHC: Sending packet PING data None
+2025-10-19 13:31:00,793 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:00] "GET /socket.io/?EIO=4&transport=polling&t=PdzXUcJ&sid=7XJXGr0qMdrlLnysAAHC HTTP/1.1" 200 -
+2025-10-19 13:31:00,799 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:00,800 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:00] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXaBl&sid=a7QQT8X-QX4w_FJpAAHH HTTP/1.1[0m" 400 -
+2025-10-19 13:31:00,803 INFO engineio.server Wf23DVgnpiXp8xQGAAHI: Sending packet OPEN data {'sid': 'Wf23DVgnpiXp8xQGAAHI', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:31:00,803 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:00] "GET /socket.io/?EIO=4&transport=polling&t=PdzXac2 HTTP/1.1" 200 -
+2025-10-19 13:31:00,809 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:00,809 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:00] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXaj5&sid=Wf23DVgnpiXp8xQGAAHI HTTP/1.1[0m" 400 -
+2025-10-19 13:31:00,810 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:00,811 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:00] "[31m[1mGET /socket.io/?EIO=4&transport=websocket&sid=Wf23DVgnpiXp8xQGAAHI HTTP/1.1[0m" 400 -
+2025-10-19 13:31:01,040 INFO engineio.server aw-tu3XJvZQddHYAAAG8: Client is gone, closing socket
+2025-10-19 13:31:01,040 INFO engineio.server aw-tu3XJvZQddHYAAAG8: Client is gone, closing socket
+2025-10-19 13:31:02,045 INFO engineio.server FIARmKbC9a7fc-85AAG9: Client is gone, closing socket
+2025-10-19 13:31:02,046 INFO engineio.server FIARmKbC9a7fc-85AAG9: Client is gone, closing socket
+2025-10-19 13:31:02,797 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:02] "GET /socket.io/?EIO=4&transport=polling&t=PdzXV5Z&sid=sIB_UmljpTLWgFNJAAHD HTTP/1.1" 200 -
+2025-10-19 13:31:02,796 INFO engineio.server sIB_UmljpTLWgFNJAAHD: Sending packet PING data None
+2025-10-19 13:31:02,803 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:02,803 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:02] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXajC&sid=Wf23DVgnpiXp8xQGAAHI HTTP/1.1[0m" 400 -
+2025-10-19 13:31:02,806 INFO engineio.server KlAnN0kg5BaG2KAIAAHJ: Sending packet OPEN data {'sid': 'KlAnN0kg5BaG2KAIAAHJ', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:31:02,806 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:02] "GET /socket.io/?EIO=4&transport=polling&t=PdzXb5L HTTP/1.1" 200 -
+2025-10-19 13:31:02,813 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:02,813 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:02,814 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:02] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXbCP&sid=KlAnN0kg5BaG2KAIAAHJ HTTP/1.1[0m" 400 -
+2025-10-19 13:31:02,814 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:02] "[31m[1mGET /socket.io/?EIO=4&transport=websocket&sid=KlAnN0kg5BaG2KAIAAHJ HTTP/1.1[0m" 400 -
+2025-10-19 13:31:03,051 INFO engineio.server aasDEZyHMsMXvZgzAAG-: Client is gone, closing socket
+2025-10-19 13:31:03,052 INFO engineio.server aasDEZyHMsMXvZgzAAG-: Client is gone, closing socket
+2025-10-19 13:31:04,054 INFO engineio.server 2pY4tDYmPY76lbpFAAG_: Client is gone, closing socket
+2025-10-19 13:31:04,056 INFO engineio.server 2pY4tDYmPY76lbpFAAG_: Client is gone, closing socket
+2025-10-19 13:31:04,773 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:04] "GET /socket.io/?EIO=4&transport=polling&t=PdzXVaR&sid=WUOnC0UEfMJlvvhpAAHE HTTP/1.1" 200 -
+2025-10-19 13:31:04,772 INFO engineio.server WUOnC0UEfMJlvvhpAAHE: Sending packet PING data None
+2025-10-19 13:31:04,777 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:04,777 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:04] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXbCV&sid=KlAnN0kg5BaG2KAIAAHJ HTTP/1.1[0m" 400 -
+2025-10-19 13:31:04,779 INFO engineio.server EhfSbThzm5JfZbZhAAHK: Sending packet OPEN data {'sid': 'EhfSbThzm5JfZbZhAAHK', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:31:04,779 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:04] "GET /socket.io/?EIO=4&transport=polling&t=PdzXbab HTTP/1.1" 200 -
+2025-10-19 13:31:04,782 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:04,783 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:04,783 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:04] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXbhC&sid=EhfSbThzm5JfZbZhAAHK HTTP/1.1[0m" 400 -
+2025-10-19 13:31:04,783 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:04] "[31m[1mGET /socket.io/?EIO=4&transport=websocket&sid=EhfSbThzm5JfZbZhAAHK HTTP/1.1[0m" 400 -
+2025-10-19 13:31:06,706 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:06] "GET /socket.io/?EIO=4&transport=polling&t=PdzXW2f&sid=xJe-x8MBowuYqMRzAAHF HTTP/1.1" 200 -
+2025-10-19 13:31:06,705 INFO engineio.server xJe-x8MBowuYqMRzAAHF: Sending packet PING data None
+2025-10-19 13:31:06,709 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:06,709 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:06] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXbhN&sid=EhfSbThzm5JfZbZhAAHK HTTP/1.1[0m" 400 -
+2025-10-19 13:31:06,711 INFO engineio.server VrsuwLd8V8QgH0TNAAHL: Sending packet OPEN data {'sid': 'VrsuwLd8V8QgH0TNAAHL', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:31:06,711 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:06] "GET /socket.io/?EIO=4&transport=polling&t=PdzXc3j HTTP/1.1" 200 -
+2025-10-19 13:31:06,715 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:06,715 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:06,716 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:06] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXc9P&sid=VrsuwLd8V8QgH0TNAAHL HTTP/1.1[0m" 400 -
+2025-10-19 13:31:06,716 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:06] "[31m[1mGET /socket.io/?EIO=4&transport=websocket&sid=VrsuwLd8V8QgH0TNAAHL HTTP/1.1[0m" 400 -
+2025-10-19 13:31:11,661 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Sending packet PING data None
+2025-10-19 13:31:11,670 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Received packet PONG data 
+2025-10-19 13:31:11,972 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:11] "GET /socket.io/?EIO=4&transport=polling&t=PdzXXKu.0&sid=67DJusOWsjqr_zpWAAHG HTTP/1.1" 200 -
+2025-10-19 13:31:11,972 INFO engineio.server 67DJusOWsjqr_zpWAAHG: Sending packet PING data None
+2025-10-19 13:31:11,978 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:11,979 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:11] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXc9T&sid=VrsuwLd8V8QgH0TNAAHL HTTP/1.1[0m" 400 -
+2025-10-19 13:31:11,983 INFO engineio.server Uxv9TDUEa6bFhFVfAAHM: Sending packet OPEN data {'sid': 'Uxv9TDUEa6bFhFVfAAHM', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:31:11,983 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:11] "GET /socket.io/?EIO=4&transport=polling&t=PdzXcYy HTTP/1.1" 200 -
+2025-10-19 13:31:11,990 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:11,991 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:11] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXdRp&sid=Uxv9TDUEa6bFhFVfAAHM HTTP/1.1[0m" 400 -
+2025-10-19 13:31:17,304 INFO engineio.server YwTyrQXB68_l2RU0AABS: Sending packet PING data None
+2025-10-19 13:31:17,309 INFO engineio.server YwTyrQXB68_l2RU0AABS: Received packet PONG data 
+2025-10-19 13:31:19,104 INFO engineio.server HW09kT3haKJua5qPAAHA: Client is gone, closing socket
+2025-10-19 13:31:19,105 INFO engineio.server HW09kT3haKJua5qPAAHA: Client is gone, closing socket
+2025-10-19 13:31:20,106 INFO engineio.server 5encmbuIE0NAX9zoAAHB: Client is gone, closing socket
+2025-10-19 13:31:20,107 INFO engineio.server 5encmbuIE0NAX9zoAAHB: Client is gone, closing socket
+2025-10-19 13:31:21,112 INFO engineio.server 7XJXGr0qMdrlLnysAAHC: Client is gone, closing socket
+2025-10-19 13:31:21,112 INFO engineio.server 7XJXGr0qMdrlLnysAAHC: Client is gone, closing socket
+2025-10-19 13:31:23,652 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:23] "GET /socket.io/?EIO=4&transport=polling&t=PdzXaBf&sid=a7QQT8X-QX4w_FJpAAHH HTTP/1.1" 200 -
+2025-10-19 13:31:23,652 INFO engineio.server a7QQT8X-QX4w_FJpAAHH: Sending packet PING data None
+2025-10-19 13:31:23,654 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:23,654 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:23] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXdRu&sid=Uxv9TDUEa6bFhFVfAAHM HTTP/1.1[0m" 400 -
+2025-10-19 13:31:23,655 INFO engineio.server JodXwC9XAX0JkRWAAAHN: Sending packet OPEN data {'sid': 'JodXwC9XAX0JkRWAAAHN', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:31:23,656 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:23] "GET /socket.io/?EIO=4&transport=polling&t=PdzXdn4 HTTP/1.1" 200 -
+2025-10-19 13:31:23,658 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:23,658 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:23] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXgI9&sid=JodXwC9XAX0JkRWAAAHN HTTP/1.1[0m" 400 -
+2025-10-19 13:31:25,808 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:25] "GET /socket.io/?EIO=4&transport=polling&t=PdzXaj6&sid=Wf23DVgnpiXp8xQGAAHI HTTP/1.1" 200 -
+2025-10-19 13:31:25,807 INFO engineio.server Wf23DVgnpiXp8xQGAAHI: Sending packet PING data None
+2025-10-19 13:31:25,809 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:25,810 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:25] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXgIB&sid=JodXwC9XAX0JkRWAAAHN HTTP/1.1[0m" 400 -
+2025-10-19 13:31:25,811 INFO engineio.server y_crpTtWo0a1EiNkAAHO: Sending packet OPEN data {'sid': 'y_crpTtWo0a1EiNkAAHO', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:31:25,811 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:25] "GET /socket.io/?EIO=4&transport=polling&t=PdzXgia HTTP/1.1" 200 -
+2025-10-19 13:31:25,814 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:25,814 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:25] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXgpq&sid=y_crpTtWo0a1EiNkAAHO HTTP/1.1[0m" 400 -
+2025-10-19 13:31:27,809 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:27] "GET /socket.io/?EIO=4&transport=polling&t=PdzXbCQ&sid=KlAnN0kg5BaG2KAIAAHJ HTTP/1.1" 200 -
+2025-10-19 13:31:27,809 INFO engineio.server KlAnN0kg5BaG2KAIAAHJ: Sending packet PING data None
+2025-10-19 13:31:27,813 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:27,814 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:27] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXgpt&sid=y_crpTtWo0a1EiNkAAHO HTTP/1.1[0m" 400 -
+2025-10-19 13:31:27,816 INFO engineio.server kI1qnoLpFV_2YlcmAAHP: Sending packet OPEN data {'sid': 'kI1qnoLpFV_2YlcmAAHP', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:31:27,816 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:27] "GET /socket.io/?EIO=4&transport=polling&t=PdzXhBq HTTP/1.1" 200 -
+2025-10-19 13:31:27,821 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:27,821 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:27] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXhJA&sid=kI1qnoLpFV_2YlcmAAHP HTTP/1.1[0m" 400 -
+2025-10-19 13:31:29,785 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:29] "GET /socket.io/?EIO=4&transport=polling&t=PdzXbhD&sid=EhfSbThzm5JfZbZhAAHK HTTP/1.1" 200 -
+2025-10-19 13:31:29,784 INFO engineio.server EhfSbThzm5JfZbZhAAHK: Sending packet PING data None
+2025-10-19 13:31:29,790 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:29,790 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:29] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXhJF&sid=kI1qnoLpFV_2YlcmAAHP HTTP/1.1[0m" 400 -
+2025-10-19 13:31:29,792 INFO engineio.server 9SAO7nyKraqvhvGoAAHQ: Sending packet OPEN data {'sid': '9SAO7nyKraqvhvGoAAHQ', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:31:29,793 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:29] "GET /socket.io/?EIO=4&transport=polling&t=PdzXhh4 HTTP/1.1" 200 -
+2025-10-19 13:31:29,802 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:29,803 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:29] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXho8&sid=9SAO7nyKraqvhvGoAAHQ HTTP/1.1[0m" 400 -
+2025-10-19 13:31:31,717 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:31] "GET /socket.io/?EIO=4&transport=polling&t=PdzXc9P.0&sid=VrsuwLd8V8QgH0TNAAHL HTTP/1.1" 200 -
+2025-10-19 13:31:31,716 INFO engineio.server VrsuwLd8V8QgH0TNAAHL: Sending packet PING data None
+2025-10-19 13:31:31,729 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:31,730 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:31] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXhoB&sid=9SAO7nyKraqvhvGoAAHQ HTTP/1.1[0m" 400 -
+2025-10-19 13:31:31,731 INFO engineio.server LoDTbTYNn3opg2GkAAHR: Sending packet OPEN data {'sid': 'LoDTbTYNn3opg2GkAAHR', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:31:31,731 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:31] "GET /socket.io/?EIO=4&transport=polling&t=PdzXiAL HTTP/1.1" 200 -
+2025-10-19 13:31:31,734 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:31,734 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:31] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXiGK&sid=LoDTbTYNn3opg2GkAAHR HTTP/1.1[0m" 400 -
+2025-10-19 13:31:36,676 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Sending packet PING data None
+2025-10-19 13:31:36,681 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Received packet PONG data 
+2025-10-19 13:31:36,989 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:36] "GET /socket.io/?EIO=4&transport=polling&t=PdzXdRq&sid=Uxv9TDUEa6bFhFVfAAHM HTTP/1.1" 200 -
+2025-10-19 13:31:36,987 INFO engineio.server Uxv9TDUEa6bFhFVfAAHM: Sending packet PING data None
+2025-10-19 13:31:36,995 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:36,995 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:36] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXiGM&sid=LoDTbTYNn3opg2GkAAHR HTTP/1.1[0m" 400 -
+2025-10-19 13:31:37,002 INFO engineio.server mkGHh7NGxns0JCbnAAHS: Sending packet OPEN data {'sid': 'mkGHh7NGxns0JCbnAAHS', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:31:37,003 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:37] "GET /socket.io/?EIO=4&transport=polling&t=PdzXifa HTTP/1.1" 200 -
+2025-10-19 13:31:37,011 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:37,011 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:37] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXjYl&sid=mkGHh7NGxns0JCbnAAHS HTTP/1.1[0m" 400 -
+2025-10-19 13:31:37,169 INFO engineio.server sIB_UmljpTLWgFNJAAHD: Client is gone, closing socket
+2025-10-19 13:31:37,170 INFO engineio.server sIB_UmljpTLWgFNJAAHD: Client is gone, closing socket
+2025-10-19 13:31:38,175 INFO engineio.server WUOnC0UEfMJlvvhpAAHE: Client is gone, closing socket
+2025-10-19 13:31:38,176 INFO engineio.server WUOnC0UEfMJlvvhpAAHE: Client is gone, closing socket
+2025-10-19 13:31:39,177 INFO engineio.server xJe-x8MBowuYqMRzAAHF: Client is gone, closing socket
+2025-10-19 13:31:39,178 INFO engineio.server xJe-x8MBowuYqMRzAAHF: Client is gone, closing socket
+2025-10-19 13:31:40,179 INFO engineio.server 67DJusOWsjqr_zpWAAHG: Client is gone, closing socket
+2025-10-19 13:31:40,179 INFO engineio.server 67DJusOWsjqr_zpWAAHG: Client is gone, closing socket
+2025-10-19 13:31:42,312 INFO engineio.server YwTyrQXB68_l2RU0AABS: Sending packet PING data None
+2025-10-19 13:31:42,317 INFO engineio.server YwTyrQXB68_l2RU0AABS: Received packet PONG data 
+2025-10-19 13:31:48,661 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:48] "GET /socket.io/?EIO=4&transport=polling&t=PdzXgI9.0&sid=JodXwC9XAX0JkRWAAAHN HTTP/1.1" 200 -
+2025-10-19 13:31:48,660 INFO engineio.server JodXwC9XAX0JkRWAAAHN: Sending packet PING data None
+2025-10-19 13:31:48,669 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:48,669 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:48] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXjYr&sid=mkGHh7NGxns0JCbnAAHS HTTP/1.1[0m" 400 -
+2025-10-19 13:31:48,673 INFO engineio.server omR0Muf-Y485lP7WAAHT: Sending packet OPEN data {'sid': 'omR0Muf-Y485lP7WAAHT', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:31:48,674 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:48] "GET /socket.io/?EIO=4&transport=polling&t=PdzXjti HTTP/1.1" 200 -
+2025-10-19 13:31:48,682 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:48,682 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:48] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXmP5&sid=omR0Muf-Y485lP7WAAHT HTTP/1.1[0m" 400 -
+2025-10-19 13:31:50,813 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:50] "GET /socket.io/?EIO=4&transport=polling&t=PdzXgpr&sid=y_crpTtWo0a1EiNkAAHO HTTP/1.1" 200 -
+2025-10-19 13:31:50,813 INFO engineio.server y_crpTtWo0a1EiNkAAHO: Sending packet PING data None
+2025-10-19 13:31:50,818 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:50,819 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:50] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXmPC&sid=omR0Muf-Y485lP7WAAHT HTTP/1.1[0m" 400 -
+2025-10-19 13:31:50,821 INFO engineio.server l7UEXcx0v-4UTSu3AAHU: Sending packet OPEN data {'sid': 'l7UEXcx0v-4UTSu3AAHU', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:31:50,822 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:50] "GET /socket.io/?EIO=4&transport=polling&t=PdzXmZZ HTTP/1.1" 200 -
+2025-10-19 13:31:50,826 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:50,826 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:50] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXmwd&sid=l7UEXcx0v-4UTSu3AAHU HTTP/1.1[0m" 400 -
+2025-10-19 13:31:52,822 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:52] "GET /socket.io/?EIO=4&transport=polling&t=PdzXhJB&sid=kI1qnoLpFV_2YlcmAAHP HTTP/1.1" 200 -
+2025-10-19 13:31:52,821 INFO engineio.server kI1qnoLpFV_2YlcmAAHP: Sending packet PING data None
+2025-10-19 13:31:52,826 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:52,826 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:52] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXmwi&sid=l7UEXcx0v-4UTSu3AAHU HTTP/1.1[0m" 400 -
+2025-10-19 13:31:52,828 INFO engineio.server jKsnmSI3qOrAywb9AAHV: Sending packet OPEN data {'sid': 'jKsnmSI3qOrAywb9AAHV', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:31:52,829 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:52] "GET /socket.io/?EIO=4&transport=polling&t=PdzXnIS HTTP/1.1" 200 -
+2025-10-19 13:31:52,834 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:52,834 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:52] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXnP_&sid=jKsnmSI3qOrAywb9AAHV HTTP/1.1[0m" 400 -
+2025-10-19 13:31:54,796 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:54] "GET /socket.io/?EIO=4&transport=polling&t=PdzXho9&sid=9SAO7nyKraqvhvGoAAHQ HTTP/1.1" 200 -
+2025-10-19 13:31:54,796 INFO engineio.server 9SAO7nyKraqvhvGoAAHQ: Sending packet PING data None
+2025-10-19 13:31:54,800 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:54,801 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:54] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXnQ4&sid=jKsnmSI3qOrAywb9AAHV HTTP/1.1[0m" 400 -
+2025-10-19 13:31:54,803 INFO engineio.server TtICp8FeHDH5QYIiAAHW: Sending packet OPEN data {'sid': 'TtICp8FeHDH5QYIiAAHW', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:31:54,804 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:54] "GET /socket.io/?EIO=4&transport=polling&t=PdzXnni HTTP/1.1" 200 -
+2025-10-19 13:31:54,808 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:54,809 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:54] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXnur&sid=TtICp8FeHDH5QYIiAAHW HTTP/1.1[0m" 400 -
+2025-10-19 13:31:56,737 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:56] "GET /socket.io/?EIO=4&transport=polling&t=PdzXiGL&sid=LoDTbTYNn3opg2GkAAHR HTTP/1.1" 200 -
+2025-10-19 13:31:56,736 INFO engineio.server LoDTbTYNn3opg2GkAAHR: Sending packet PING data None
+2025-10-19 13:31:56,741 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:56,741 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:56] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXnux&sid=TtICp8FeHDH5QYIiAAHW HTTP/1.1[0m" 400 -
+2025-10-19 13:31:56,743 INFO engineio.server oshLCuiksRtWFvt4AAHX: Sending packet OPEN data {'sid': 'oshLCuiksRtWFvt4AAHX', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:31:56,744 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:56] "GET /socket.io/?EIO=4&transport=polling&t=PdzXoGx HTTP/1.1" 200 -
+2025-10-19 13:31:56,748 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:31:56,749 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:31:56] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXoNA&sid=oshLCuiksRtWFvt4AAHX HTTP/1.1[0m" 400 -
+2025-10-19 13:31:58,247 INFO engineio.server a7QQT8X-QX4w_FJpAAHH: Client is gone, closing socket
+2025-10-19 13:31:58,249 INFO engineio.server a7QQT8X-QX4w_FJpAAHH: Client is gone, closing socket
+2025-10-19 13:31:59,253 INFO engineio.server Wf23DVgnpiXp8xQGAAHI: Client is gone, closing socket
+2025-10-19 13:31:59,253 INFO engineio.server Wf23DVgnpiXp8xQGAAHI: Client is gone, closing socket
+2025-10-19 13:32:00,255 INFO engineio.server KlAnN0kg5BaG2KAIAAHJ: Client is gone, closing socket
+2025-10-19 13:32:00,255 INFO engineio.server KlAnN0kg5BaG2KAIAAHJ: Client is gone, closing socket
+2025-10-19 13:32:01,261 INFO engineio.server EhfSbThzm5JfZbZhAAHK: Client is gone, closing socket
+2025-10-19 13:32:01,262 INFO engineio.server EhfSbThzm5JfZbZhAAHK: Client is gone, closing socket
+2025-10-19 13:32:01,688 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Sending packet PING data None
+2025-10-19 13:32:01,693 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Received packet PONG data 
+2025-10-19 13:32:02,006 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:02] "GET /socket.io/?EIO=4&transport=polling&t=PdzXjYm&sid=mkGHh7NGxns0JCbnAAHS HTTP/1.1" 200 -
+2025-10-19 13:32:02,005 INFO engineio.server mkGHh7NGxns0JCbnAAHS: Sending packet PING data None
+2025-10-19 13:32:02,014 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:02,014 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:02] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXoNF&sid=oshLCuiksRtWFvt4AAHX HTTP/1.1[0m" 400 -
+2025-10-19 13:32:02,018 INFO engineio.server q2LTlwTrDToSsgYmAAHY: Sending packet OPEN data {'sid': 'q2LTlwTrDToSsgYmAAHY', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:32:02,019 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:02] "GET /socket.io/?EIO=4&transport=polling&t=PdzXomB HTTP/1.1" 200 -
+2025-10-19 13:32:02,028 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:02,028 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:02] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXpfd&sid=q2LTlwTrDToSsgYmAAHY HTTP/1.1[0m" 400 -
+2025-10-19 13:32:02,265 INFO engineio.server VrsuwLd8V8QgH0TNAAHL: Client is gone, closing socket
+2025-10-19 13:32:02,266 INFO engineio.server VrsuwLd8V8QgH0TNAAHL: Client is gone, closing socket
+2025-10-19 13:32:03,269 INFO engineio.server Uxv9TDUEa6bFhFVfAAHM: Client is gone, closing socket
+2025-10-19 13:32:03,270 INFO engineio.server Uxv9TDUEa6bFhFVfAAHM: Client is gone, closing socket
+2025-10-19 13:32:07,320 INFO engineio.server YwTyrQXB68_l2RU0AABS: Sending packet PING data None
+2025-10-19 13:32:07,326 INFO engineio.server YwTyrQXB68_l2RU0AABS: Received packet PONG data 
+2025-10-19 13:32:13,680 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:13] "GET /socket.io/?EIO=4&transport=polling&t=PdzXmP7&sid=omR0Muf-Y485lP7WAAHT HTTP/1.1" 200 -
+2025-10-19 13:32:13,679 INFO engineio.server omR0Muf-Y485lP7WAAHT: Sending packet PING data None
+2025-10-19 13:32:13,685 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:13,685 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:13] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXpfk&sid=q2LTlwTrDToSsgYmAAHY HTTP/1.1[0m" 400 -
+2025-10-19 13:32:13,689 INFO engineio.server 6BDQkNVOBV_e3j7rAAHZ: Sending packet OPEN data {'sid': '6BDQkNVOBV_e3j7rAAHZ', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:32:13,690 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:13] "GET /socket.io/?EIO=4&transport=polling&t=PdzXqDx HTTP/1.1" 200 -
+2025-10-19 13:32:13,695 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:13,695 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:13] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXsVy&sid=6BDQkNVOBV_e3j7rAAHZ HTTP/1.1[0m" 400 -
+2025-10-19 13:32:15,827 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:15] "GET /socket.io/?EIO=4&transport=polling&t=PdzXmwf&sid=l7UEXcx0v-4UTSu3AAHU HTTP/1.1" 200 -
+2025-10-19 13:32:15,826 INFO engineio.server l7UEXcx0v-4UTSu3AAHU: Sending packet PING data None
+2025-10-19 13:32:15,829 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:15,829 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:15] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXsW0&sid=6BDQkNVOBV_e3j7rAAHZ HTTP/1.1[0m" 400 -
+2025-10-19 13:32:15,832 INFO engineio.server Qq5NiB-AoqprgkM7AAHa: Sending packet OPEN data {'sid': 'Qq5NiB-AoqprgkM7AAHa', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:32:15,833 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:15] "GET /socket.io/?EIO=4&transport=polling&t=PdzXsvq HTTP/1.1" 200 -
+2025-10-19 13:32:15,836 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:15,836 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:15] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXt1Q&sid=Qq5NiB-AoqprgkM7AAHa HTTP/1.1[0m" 400 -
+2025-10-19 13:32:17,831 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:17] "GET /socket.io/?EIO=4&transport=polling&t=PdzXnQ0&sid=jKsnmSI3qOrAywb9AAHV HTTP/1.1" 200 -
+2025-10-19 13:32:17,830 INFO engineio.server jKsnmSI3qOrAywb9AAHV: Sending packet PING data None
+2025-10-19 13:32:17,834 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:17,834 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:17] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXt1U&sid=Qq5NiB-AoqprgkM7AAHa HTTP/1.1[0m" 400 -
+2025-10-19 13:32:17,838 INFO engineio.server _UlMiH47Su9CsfrPAAHb: Sending packet OPEN data {'sid': '_UlMiH47Su9CsfrPAAHb', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:32:17,839 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:17] "GET /socket.io/?EIO=4&transport=polling&t=PdzXtP3 HTTP/1.1" 200 -
+2025-10-19 13:32:17,842 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:17,842 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:17] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXtWm&sid=_UlMiH47Su9CsfrPAAHb HTTP/1.1[0m" 400 -
+2025-10-19 13:32:19,809 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:19] "GET /socket.io/?EIO=4&transport=polling&t=PdzXnus&sid=TtICp8FeHDH5QYIiAAHW HTTP/1.1" 200 -
+2025-10-19 13:32:19,808 INFO engineio.server TtICp8FeHDH5QYIiAAHW: Sending packet PING data None
+2025-10-19 13:32:19,812 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:19,812 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:19] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXtWq&sid=_UlMiH47Su9CsfrPAAHb HTTP/1.1[0m" 400 -
+2025-10-19 13:32:19,814 INFO engineio.server m4gZ0KHO-T859xptAAHc: Sending packet OPEN data {'sid': 'm4gZ0KHO-T859xptAAHc', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:32:19,814 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:19] "GET /socket.io/?EIO=4&transport=polling&t=PdzXtuK HTTP/1.1" 200 -
+2025-10-19 13:32:19,817 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:19,818 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:19] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXt_d&sid=m4gZ0KHO-T859xptAAHc HTTP/1.1[0m" 400 -
+2025-10-19 13:32:20,327 INFO engineio.server JodXwC9XAX0JkRWAAAHN: Client is gone, closing socket
+2025-10-19 13:32:20,328 INFO engineio.server JodXwC9XAX0JkRWAAAHN: Client is gone, closing socket
+2025-10-19 13:32:21,332 INFO engineio.server y_crpTtWo0a1EiNkAAHO: Client is gone, closing socket
+2025-10-19 13:32:21,333 INFO engineio.server y_crpTtWo0a1EiNkAAHO: Client is gone, closing socket
+2025-10-19 13:32:21,749 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:21] "GET /socket.io/?EIO=4&transport=polling&t=PdzXoNA.0&sid=oshLCuiksRtWFvt4AAHX HTTP/1.1" 200 -
+2025-10-19 13:32:21,748 INFO engineio.server oshLCuiksRtWFvt4AAHX: Sending packet PING data None
+2025-10-19 13:32:21,754 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:21,755 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:21] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXt_h&sid=m4gZ0KHO-T859xptAAHc HTTP/1.1[0m" 400 -
+2025-10-19 13:32:21,757 INFO engineio.server 9_bX2Y2jKf696BaMAAHd: Sending packet OPEN data {'sid': '9_bX2Y2jKf696BaMAAHd', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:32:21,758 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:21] "GET /socket.io/?EIO=4&transport=polling&t=PdzXuNa HTTP/1.1" 200 -
+2025-10-19 13:32:21,763 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:21,763 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:21] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXuT_&sid=9_bX2Y2jKf696BaMAAHd HTTP/1.1[0m" 400 -
+2025-10-19 13:32:22,337 INFO engineio.server kI1qnoLpFV_2YlcmAAHP: Client is gone, closing socket
+2025-10-19 13:32:22,348 INFO engineio.server kI1qnoLpFV_2YlcmAAHP: Client is gone, closing socket
+2025-10-19 13:32:23,351 INFO engineio.server 9SAO7nyKraqvhvGoAAHQ: Client is gone, closing socket
+2025-10-19 13:32:23,352 INFO engineio.server 9SAO7nyKraqvhvGoAAHQ: Client is gone, closing socket
+2025-10-19 13:32:24,355 INFO engineio.server LoDTbTYNn3opg2GkAAHR: Client is gone, closing socket
+2025-10-19 13:32:24,359 INFO engineio.server LoDTbTYNn3opg2GkAAHR: Client is gone, closing socket
+2025-10-19 13:32:25,364 INFO engineio.server mkGHh7NGxns0JCbnAAHS: Client is gone, closing socket
+2025-10-19 13:32:25,365 INFO engineio.server mkGHh7NGxns0JCbnAAHS: Client is gone, closing socket
+2025-10-19 13:32:26,695 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Sending packet PING data None
+2025-10-19 13:32:26,701 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Received packet PONG data 
+2025-10-19 13:32:27,023 INFO engineio.server q2LTlwTrDToSsgYmAAHY: Sending packet PING data None
+2025-10-19 13:32:27,027 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:27] "GET /socket.io/?EIO=4&transport=polling&t=PdzXpff&sid=q2LTlwTrDToSsgYmAAHY HTTP/1.1" 200 -
+2025-10-19 13:32:27,035 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:27,039 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:27] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXuU5&sid=9_bX2Y2jKf696BaMAAHd HTTP/1.1[0m" 400 -
+2025-10-19 13:32:27,041 INFO engineio.server zMxkpJz4-8IqpNGIAAHe: Sending packet OPEN data {'sid': 'zMxkpJz4-8IqpNGIAAHe', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:32:27,041 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:27] "GET /socket.io/?EIO=4&transport=polling&t=PdzXusq HTTP/1.1" 200 -
+2025-10-19 13:32:27,051 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:27,051 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:27] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXvme&sid=zMxkpJz4-8IqpNGIAAHe HTTP/1.1[0m" 400 -
+2025-10-19 13:32:32,332 INFO engineio.server YwTyrQXB68_l2RU0AABS: Sending packet PING data None
+2025-10-19 13:32:32,340 INFO engineio.server YwTyrQXB68_l2RU0AABS: Received packet PONG data 
+2025-10-19 13:32:38,700 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:38] "GET /socket.io/?EIO=4&transport=polling&t=PdzXsVz&sid=6BDQkNVOBV_e3j7rAAHZ HTTP/1.1" 200 -
+2025-10-19 13:32:38,695 INFO engineio.server 6BDQkNVOBV_e3j7rAAHZ: Sending packet PING data None
+2025-10-19 13:32:38,713 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:38,714 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:38] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXvmj&sid=zMxkpJz4-8IqpNGIAAHe HTTP/1.1[0m" 400 -
+2025-10-19 13:32:38,717 INFO engineio.server YQI4nRXkA1tFHqtgAAHf: Sending packet OPEN data {'sid': 'YQI4nRXkA1tFHqtgAAHf', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:32:38,717 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:38] "GET /socket.io/?EIO=4&transport=polling&t=PdzXw4y HTTP/1.1" 200 -
+2025-10-19 13:32:38,745 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:38,746 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:38] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXyd4&sid=YQI4nRXkA1tFHqtgAAHf HTTP/1.1[0m" 400 -
+2025-10-19 13:32:40,426 INFO engineio.server omR0Muf-Y485lP7WAAHT: Client is gone, closing socket
+2025-10-19 13:32:40,426 INFO engineio.server omR0Muf-Y485lP7WAAHT: Client is gone, closing socket
+2025-10-19 13:32:40,836 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:40] "GET /socket.io/?EIO=4&transport=polling&t=PdzXt1R&sid=Qq5NiB-AoqprgkM7AAHa HTTP/1.1" 200 -
+2025-10-19 13:32:40,835 INFO engineio.server Qq5NiB-AoqprgkM7AAHa: Sending packet PING data None
+2025-10-19 13:32:40,838 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:40,838 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:40] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXydS&sid=YQI4nRXkA1tFHqtgAAHf HTTP/1.1[0m" 400 -
+2025-10-19 13:32:40,838 INFO engineio.server 5D0tOPRPZoTVHr3_AAHg: Sending packet OPEN data {'sid': '5D0tOPRPZoTVHr3_AAHg', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:32:40,839 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:40] "GET /socket.io/?EIO=4&transport=polling&t=PdzXz0V HTTP/1.1" 200 -
+2025-10-19 13:32:40,840 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:40,841 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:40] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXz87&sid=5D0tOPRPZoTVHr3_AAHg HTTP/1.1[0m" 400 -
+2025-10-19 13:32:41,428 INFO engineio.server l7UEXcx0v-4UTSu3AAHU: Client is gone, closing socket
+2025-10-19 13:32:41,429 INFO engineio.server l7UEXcx0v-4UTSu3AAHU: Client is gone, closing socket
+2025-10-19 13:32:42,434 INFO engineio.server jKsnmSI3qOrAywb9AAHV: Client is gone, closing socket
+2025-10-19 13:32:42,434 INFO engineio.server jKsnmSI3qOrAywb9AAHV: Client is gone, closing socket
+2025-10-19 13:32:42,840 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:42] "GET /socket.io/?EIO=4&transport=polling&t=PdzXtWm.0&sid=_UlMiH47Su9CsfrPAAHb HTTP/1.1" 200 -
+2025-10-19 13:32:42,839 INFO engineio.server _UlMiH47Su9CsfrPAAHb: Sending packet PING data None
+2025-10-19 13:32:42,844 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:42,845 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:42] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXz89&sid=5D0tOPRPZoTVHr3_AAHg HTTP/1.1[0m" 400 -
+2025-10-19 13:32:42,846 INFO engineio.server W8vNLcexkOd5pfwAAAHh: Sending packet OPEN data {'sid': 'W8vNLcexkOd5pfwAAAHh', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:32:42,851 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:42] "GET /socket.io/?EIO=4&transport=polling&t=PdzXzVj HTTP/1.1" 200 -
+2025-10-19 13:32:42,857 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:42,858 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:42] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXzdd&sid=W8vNLcexkOd5pfwAAAHh HTTP/1.1[0m" 400 -
+2025-10-19 13:32:43,440 INFO engineio.server TtICp8FeHDH5QYIiAAHW: Client is gone, closing socket
+2025-10-19 13:32:43,441 INFO engineio.server TtICp8FeHDH5QYIiAAHW: Client is gone, closing socket
+2025-10-19 13:32:44,446 INFO engineio.server oshLCuiksRtWFvt4AAHX: Client is gone, closing socket
+2025-10-19 13:32:44,446 INFO engineio.server oshLCuiksRtWFvt4AAHX: Client is gone, closing socket
+2025-10-19 13:32:44,819 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:44] "GET /socket.io/?EIO=4&transport=polling&t=PdzXt_e&sid=m4gZ0KHO-T859xptAAHc HTTP/1.1" 200 -
+2025-10-19 13:32:44,819 INFO engineio.server m4gZ0KHO-T859xptAAHc: Sending packet PING data None
+2025-10-19 13:32:44,822 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:44,822 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:44] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzXzdh&sid=W8vNLcexkOd5pfwAAAHh HTTP/1.1[0m" 400 -
+2025-10-19 13:32:44,823 INFO engineio.server 79sox4XRH12VHHX5AAHi: Sending packet OPEN data {'sid': '79sox4XRH12VHHX5AAHi', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:32:44,823 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:44] "GET /socket.io/?EIO=4&transport=polling&t=PdzXz-w HTTP/1.1" 200 -
+2025-10-19 13:32:44,826 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:44,826 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:44] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzX-6O&sid=79sox4XRH12VHHX5AAHi HTTP/1.1[0m" 400 -
+2025-10-19 13:32:46,762 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:46] "GET /socket.io/?EIO=4&transport=polling&t=PdzXuU1&sid=9_bX2Y2jKf696BaMAAHd HTTP/1.1" 200 -
+2025-10-19 13:32:46,762 INFO engineio.server 9_bX2Y2jKf696BaMAAHd: Sending packet PING data None
+2025-10-19 13:32:46,764 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:46,764 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:46] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzX-6R&sid=79sox4XRH12VHHX5AAHi HTTP/1.1[0m" 400 -
+2025-10-19 13:32:46,765 INFO engineio.server X_D8LC788f8QwrE4AAHj: Sending packet OPEN data {'sid': 'X_D8LC788f8QwrE4AAHj', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:32:46,765 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:46] "GET /socket.io/?EIO=4&transport=polling&t=PdzX-UB HTTP/1.1" 200 -
+2025-10-19 13:32:46,767 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:46,767 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:46] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzX-ak&sid=X_D8LC788f8QwrE4AAHj HTTP/1.1[0m" 400 -
+2025-10-19 13:32:51,707 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Sending packet PING data None
+2025-10-19 13:32:51,713 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Received packet PONG data 
+2025-10-19 13:32:52,044 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:52] "GET /socket.io/?EIO=4&transport=polling&t=PdzXvmi&sid=zMxkpJz4-8IqpNGIAAHe HTTP/1.1" 200 -
+2025-10-19 13:32:52,043 INFO engineio.server zMxkpJz4-8IqpNGIAAHe: Sending packet PING data None
+2025-10-19 13:32:52,046 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:52,046 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:52] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzX-am&sid=X_D8LC788f8QwrE4AAHj HTTP/1.1[0m" 400 -
+2025-10-19 13:32:52,047 INFO engineio.server dHPkVaVEzVA4LG3VAAHk: Sending packet OPEN data {'sid': 'dHPkVaVEzVA4LG3VAAHk', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:32:52,048 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:52] "GET /socket.io/?EIO=4&transport=polling&t=PdzX-zS HTTP/1.1" 200 -
+2025-10-19 13:32:52,050 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:32:52,050 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:32:52] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzX_tG&sid=dHPkVaVEzVA4LG3VAAHk HTTP/1.1[0m" 400 -
+2025-10-19 13:32:57,343 INFO engineio.server YwTyrQXB68_l2RU0AABS: Sending packet PING data None
+2025-10-19 13:32:57,345 INFO engineio.server YwTyrQXB68_l2RU0AABS: Received packet PONG data 
+2025-10-19 13:32:59,500 INFO engineio.server q2LTlwTrDToSsgYmAAHY: Client is gone, closing socket
+2025-10-19 13:32:59,501 INFO engineio.server q2LTlwTrDToSsgYmAAHY: Client is gone, closing socket
+2025-10-19 13:33:00,502 INFO engineio.server 6BDQkNVOBV_e3j7rAAHZ: Client is gone, closing socket
+2025-10-19 13:33:00,503 INFO engineio.server 6BDQkNVOBV_e3j7rAAHZ: Client is gone, closing socket
+2025-10-19 13:33:01,507 INFO engineio.server Qq5NiB-AoqprgkM7AAHa: Client is gone, closing socket
+2025-10-19 13:33:01,508 INFO engineio.server Qq5NiB-AoqprgkM7AAHa: Client is gone, closing socket
+2025-10-19 13:33:03,722 INFO engineio.server YQI4nRXkA1tFHqtgAAHf: Sending packet PING data None
+2025-10-19 13:33:03,726 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:03] "GET /socket.io/?EIO=4&transport=polling&t=PdzXydM&sid=YQI4nRXkA1tFHqtgAAHf HTTP/1.1" 200 -
+2025-10-19 13:33:03,729 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:03,729 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:03] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzX_tJ&sid=dHPkVaVEzVA4LG3VAAHk HTTP/1.1[0m" 400 -
+2025-10-19 13:33:03,730 INFO engineio.server k9beUO86iMlJ_ymKAAHl: Sending packet OPEN data {'sid': 'k9beUO86iMlJ_ymKAAHl', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:33:03,730 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:03] "GET /socket.io/?EIO=4&transport=polling&t=PdzY0BZ HTTP/1.1" 200 -
+2025-10-19 13:33:03,734 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:03,735 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:03] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY2jr&sid=k9beUO86iMlJ_ymKAAHl HTTP/1.1[0m" 400 -
+2025-10-19 13:33:03,735 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:03,736 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:03] "[31m[1mGET /socket.io/?EIO=4&transport=websocket&sid=k9beUO86iMlJ_ymKAAHl HTTP/1.1[0m" 400 -
+2025-10-19 13:33:05,842 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:05] "GET /socket.io/?EIO=4&transport=polling&t=PdzXz88&sid=5D0tOPRPZoTVHr3_AAHg HTTP/1.1" 200 -
+2025-10-19 13:33:05,842 INFO engineio.server 5D0tOPRPZoTVHr3_AAHg: Sending packet PING data None
+2025-10-19 13:33:05,844 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:05,844 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:05] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY2jt&sid=k9beUO86iMlJ_ymKAAHl HTTP/1.1[0m" 400 -
+2025-10-19 13:33:05,845 INFO engineio.server seagq-zxMFAcZA8LAAHm: Sending packet OPEN data {'sid': 'seagq-zxMFAcZA8LAAHm', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:33:05,845 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:05] "GET /socket.io/?EIO=4&transport=polling&t=PdzY372 HTTP/1.1" 200 -
+2025-10-19 13:33:05,847 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:05,847 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:05,847 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:05] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY3Es&sid=seagq-zxMFAcZA8LAAHm HTTP/1.1[0m" 400 -
+2025-10-19 13:33:05,848 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:05] "[31m[1mGET /socket.io/?EIO=4&transport=websocket&sid=seagq-zxMFAcZA8LAAHm HTTP/1.1[0m" 400 -
+2025-10-19 13:33:07,855 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:07] "GET /socket.io/?EIO=4&transport=polling&t=PdzXzde&sid=W8vNLcexkOd5pfwAAAHh HTTP/1.1" 200 -
+2025-10-19 13:33:07,855 INFO engineio.server W8vNLcexkOd5pfwAAAHh: Sending packet PING data None
+2025-10-19 13:33:07,857 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:07,857 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:07] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY3Eu&sid=seagq-zxMFAcZA8LAAHm HTTP/1.1[0m" 400 -
+2025-10-19 13:33:07,858 INFO engineio.server VpaQ0MjAh-oa20dSAAHn: Sending packet OPEN data {'sid': 'VpaQ0MjAh-oa20dSAAHn', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:33:07,858 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:07] "GET /socket.io/?EIO=4&transport=polling&t=PdzY3cI HTTP/1.1" 200 -
+2025-10-19 13:33:07,860 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:07,860 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:07,860 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:07] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY3kJ&sid=VpaQ0MjAh-oa20dSAAHn HTTP/1.1[0m" 400 -
+2025-10-19 13:33:07,860 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:07] "[31m[1mGET /socket.io/?EIO=4&transport=websocket&sid=VpaQ0MjAh-oa20dSAAHn HTTP/1.1[0m" 400 -
+2025-10-19 13:33:09,830 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:09] "GET /socket.io/?EIO=4&transport=polling&t=PdzX-6P&sid=79sox4XRH12VHHX5AAHi HTTP/1.1" 200 -
+2025-10-19 13:33:09,828 INFO engineio.server 79sox4XRH12VHHX5AAHi: Sending packet PING data None
+2025-10-19 13:33:09,838 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:09,838 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:09] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY3kL&sid=VpaQ0MjAh-oa20dSAAHn HTTP/1.1[0m" 400 -
+2025-10-19 13:33:09,840 INFO engineio.server HTsiSn6lzP0Xcbe-AAHo: Sending packet OPEN data {'sid': 'HTsiSn6lzP0Xcbe-AAHo', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:33:09,841 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:09] "GET /socket.io/?EIO=4&transport=polling&t=PdzY45b HTTP/1.1" 200 -
+2025-10-19 13:33:09,845 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:09,845 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:09,845 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:09] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY4DI&sid=HTsiSn6lzP0Xcbe-AAHo HTTP/1.1[0m" 400 -
+2025-10-19 13:33:09,845 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:09] "[31m[1mGET /socket.io/?EIO=4&transport=websocket&sid=HTsiSn6lzP0Xcbe-AAHo HTTP/1.1[0m" 400 -
+2025-10-19 13:33:11,769 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:11] "GET /socket.io/?EIO=4&transport=polling&t=PdzX-ak.0&sid=X_D8LC788f8QwrE4AAHj HTTP/1.1" 200 -
+2025-10-19 13:33:11,768 INFO engineio.server X_D8LC788f8QwrE4AAHj: Sending packet PING data None
+2025-10-19 13:33:11,773 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:11,773 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:11] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY4DM&sid=HTsiSn6lzP0Xcbe-AAHo HTTP/1.1[0m" 400 -
+2025-10-19 13:33:11,779 INFO engineio.server 3Auyk7z4_0d3XSvDAAHp: Sending packet OPEN data {'sid': '3Auyk7z4_0d3XSvDAAHp', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:33:11,780 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:11] "GET /socket.io/?EIO=4&transport=polling&t=PdzY4ao HTTP/1.1" 200 -
+2025-10-19 13:33:11,786 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:11,787 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:11] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY4he&sid=3Auyk7z4_0d3XSvDAAHp HTTP/1.1[0m" 400 -
+2025-10-19 13:33:11,790 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:11,791 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:11] "[31m[1mGET /socket.io/?EIO=4&transport=websocket&sid=3Auyk7z4_0d3XSvDAAHp HTTP/1.1[0m" 400 -
+2025-10-19 13:33:16,719 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Sending packet PING data None
+2025-10-19 13:33:16,725 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Received packet PONG data 
+2025-10-19 13:33:17,049 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:17] "GET /socket.io/?EIO=4&transport=polling&t=PdzX_tH&sid=dHPkVaVEzVA4LG3VAAHk HTTP/1.1" 200 -
+2025-10-19 13:33:17,049 INFO engineio.server dHPkVaVEzVA4LG3VAAHk: Sending packet PING data None
+2025-10-19 13:33:17,054 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:17,054 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:17] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY4hi&sid=3Auyk7z4_0d3XSvDAAHp HTTP/1.1[0m" 400 -
+2025-10-19 13:33:17,057 INFO engineio.server 5NONRCI_pbMSGsQ5AAHq: Sending packet OPEN data {'sid': '5NONRCI_pbMSGsQ5AAHq', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:33:17,058 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:17] "GET /socket.io/?EIO=4&transport=polling&t=PdzY542 HTTP/1.1" 200 -
+2025-10-19 13:33:17,068 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:17,068 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:17] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY5-9&sid=5NONRCI_pbMSGsQ5AAHq HTTP/1.1[0m" 400 -
+2025-10-19 13:33:17,071 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:17,072 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:17] "[31m[1mGET /socket.io/?EIO=4&transport=websocket&sid=5NONRCI_pbMSGsQ5AAHq HTTP/1.1[0m" 400 -
+2025-10-19 13:33:17,567 INFO engineio.server _UlMiH47Su9CsfrPAAHb: Client is gone, closing socket
+2025-10-19 13:33:17,568 INFO engineio.server _UlMiH47Su9CsfrPAAHb: Client is gone, closing socket
+2025-10-19 13:33:18,572 INFO engineio.server m4gZ0KHO-T859xptAAHc: Client is gone, closing socket
+2025-10-19 13:33:18,573 INFO engineio.server m4gZ0KHO-T859xptAAHc: Client is gone, closing socket
+2025-10-19 13:33:19,576 INFO engineio.server 9_bX2Y2jKf696BaMAAHd: Client is gone, closing socket
+2025-10-19 13:33:19,577 INFO engineio.server 9_bX2Y2jKf696BaMAAHd: Client is gone, closing socket
+2025-10-19 13:33:20,581 INFO engineio.server zMxkpJz4-8IqpNGIAAHe: Client is gone, closing socket
+2025-10-19 13:33:20,582 INFO engineio.server zMxkpJz4-8IqpNGIAAHe: Client is gone, closing socket
+2025-10-19 13:33:22,347 INFO engineio.server YwTyrQXB68_l2RU0AABS: Sending packet PING data None
+2025-10-19 13:33:22,360 INFO engineio.server YwTyrQXB68_l2RU0AABS: Received packet PONG data 
+2025-10-19 13:33:28,736 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:28] "GET /socket.io/?EIO=4&transport=polling&t=PdzY2js&sid=k9beUO86iMlJ_ymKAAHl HTTP/1.1" 200 -
+2025-10-19 13:33:28,734 INFO engineio.server k9beUO86iMlJ_ymKAAHl: Sending packet PING data None
+2025-10-19 13:33:28,744 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:28,745 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:28] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY5-F&sid=5NONRCI_pbMSGsQ5AAHq HTTP/1.1[0m" 400 -
+2025-10-19 13:33:28,746 INFO engineio.server Ghu3EcH5g5LscV10AAHr: Sending packet OPEN data {'sid': 'Ghu3EcH5g5LscV10AAHr', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:33:28,747 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:28] "GET /socket.io/?EIO=4&transport=polling&t=PdzY6IH HTTP/1.1" 200 -
+2025-10-19 13:33:28,752 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:28,752 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:28] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY8qi&sid=Ghu3EcH5g5LscV10AAHr HTTP/1.1[0m" 400 -
+2025-10-19 13:33:30,851 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:30] "GET /socket.io/?EIO=4&transport=polling&t=PdzY3Et&sid=seagq-zxMFAcZA8LAAHm HTTP/1.1" 200 -
+2025-10-19 13:33:30,850 INFO engineio.server seagq-zxMFAcZA8LAAHm: Sending packet PING data None
+2025-10-19 13:33:30,853 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:30,853 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:30] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY8qn&sid=Ghu3EcH5g5LscV10AAHr HTTP/1.1[0m" 400 -
+2025-10-19 13:33:30,855 INFO engineio.server m3WBmRqrTvvFI2BYAAHs: Sending packet OPEN data {'sid': 'm3WBmRqrTvvFI2BYAAHs', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:33:30,856 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:30] "GET /socket.io/?EIO=4&transport=polling&t=PdzY9Dj HTTP/1.1" 200 -
+2025-10-19 13:33:30,860 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:30,861 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:30] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY9Lg&sid=m3WBmRqrTvvFI2BYAAHs HTTP/1.1[0m" 400 -
+2025-10-19 13:33:32,862 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:32] "GET /socket.io/?EIO=4&transport=polling&t=PdzY3kJ.0&sid=VpaQ0MjAh-oa20dSAAHn HTTP/1.1" 200 -
+2025-10-19 13:33:32,861 INFO engineio.server VpaQ0MjAh-oa20dSAAHn: Sending packet PING data None
+2025-10-19 13:33:32,866 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:32,867 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:32] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY9Lk&sid=m3WBmRqrTvvFI2BYAAHs HTTP/1.1[0m" 400 -
+2025-10-19 13:33:32,868 INFO engineio.server -YnL8aJEwNYsd8o9AAHt: Sending packet OPEN data {'sid': '-YnL8aJEwNYsd8o9AAHt', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:33:32,869 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:32] "GET /socket.io/?EIO=4&transport=polling&t=PdzY9ix HTTP/1.1" 200 -
+2025-10-19 13:33:32,872 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:32,872 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:32] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY9r6&sid=-YnL8aJEwNYsd8o9AAHt HTTP/1.1[0m" 400 -
+2025-10-19 13:33:34,843 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:34] "GET /socket.io/?EIO=4&transport=polling&t=PdzY4DJ&sid=HTsiSn6lzP0Xcbe-AAHo HTTP/1.1" 200 -
+2025-10-19 13:33:34,842 INFO engineio.server HTsiSn6lzP0Xcbe-AAHo: Sending packet PING data None
+2025-10-19 13:33:34,847 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:34,847 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:34] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzY9r9&sid=-YnL8aJEwNYsd8o9AAHt HTTP/1.1[0m" 400 -
+2025-10-19 13:33:34,850 INFO engineio.server -GQstinu881Lyjl-AAHu: Sending packet OPEN data {'sid': '-GQstinu881Lyjl-AAHu', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:33:34,851 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:34] "GET /socket.io/?EIO=4&transport=polling&t=PdzYACB HTTP/1.1" 200 -
+2025-10-19 13:33:34,855 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:34,855 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:34] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzYAK4&sid=-GQstinu881Lyjl-AAHu HTTP/1.1[0m" 400 -
+2025-10-19 13:33:36,786 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:36] "GET /socket.io/?EIO=4&transport=polling&t=PdzY4he.0&sid=3Auyk7z4_0d3XSvDAAHp HTTP/1.1" 200 -
+2025-10-19 13:33:36,785 INFO engineio.server 3Auyk7z4_0d3XSvDAAHp: Sending packet PING data None
+2025-10-19 13:33:36,790 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:36,790 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:36] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzYAK9&sid=-GQstinu881Lyjl-AAHu HTTP/1.1[0m" 400 -
+2025-10-19 13:33:36,792 INFO engineio.server vL7G6__TpSdXGfTSAAHv: Sending packet OPEN data {'sid': 'vL7G6__TpSdXGfTSAAHv', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:33:36,792 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:36] "GET /socket.io/?EIO=4&transport=polling&t=PdzYAhW HTTP/1.1" 200 -
+2025-10-19 13:33:36,796 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:36,797 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:36] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzYAoQ&sid=vL7G6__TpSdXGfTSAAHv HTTP/1.1[0m" 400 -
+2025-10-19 13:33:38,653 INFO engineio.server YQI4nRXkA1tFHqtgAAHf: Client is gone, closing socket
+2025-10-19 13:33:38,654 INFO engineio.server YQI4nRXkA1tFHqtgAAHf: Client is gone, closing socket
+2025-10-19 13:33:39,659 INFO engineio.server 5D0tOPRPZoTVHr3_AAHg: Client is gone, closing socket
+2025-10-19 13:33:39,660 INFO engineio.server 5D0tOPRPZoTVHr3_AAHg: Client is gone, closing socket
+2025-10-19 13:33:40,664 INFO engineio.server W8vNLcexkOd5pfwAAAHh: Client is gone, closing socket
+2025-10-19 13:33:40,664 INFO engineio.server W8vNLcexkOd5pfwAAAHh: Client is gone, closing socket
+2025-10-19 13:33:41,666 INFO engineio.server 79sox4XRH12VHHX5AAHi: Client is gone, closing socket
+2025-10-19 13:33:41,667 INFO engineio.server 79sox4XRH12VHHX5AAHi: Client is gone, closing socket
+2025-10-19 13:33:41,730 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Sending packet PING data None
+2025-10-19 13:33:41,739 INFO engineio.server 5iaxuvu3MTpHAUI8AAAB: Received packet PONG data 
+2025-10-19 13:33:42,062 INFO engineio.server 5NONRCI_pbMSGsQ5AAHq: Sending packet PING data None
+2025-10-19 13:33:42,066 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:42] "GET /socket.io/?EIO=4&transport=polling&t=PdzY5-A&sid=5NONRCI_pbMSGsQ5AAHq HTTP/1.1" 200 -
+2025-10-19 13:33:42,097 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:42,097 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:42] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzYAoU&sid=vL7G6__TpSdXGfTSAAHv HTTP/1.1[0m" 400 -
+2025-10-19 13:33:42,102 INFO engineio.server Nwcv3IKLP3r-KrblAAHw: Sending packet OPEN data {'sid': 'Nwcv3IKLP3r-KrblAAHw', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:33:42,102 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:42] "GET /socket.io/?EIO=4&transport=polling&t=PdzYBAi HTTP/1.1" 200 -
+2025-10-19 13:33:42,111 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:42,111 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:42] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzYC5P&sid=Nwcv3IKLP3r-KrblAAHw HTTP/1.1[0m" 400 -
+2025-10-19 13:33:42,670 INFO engineio.server X_D8LC788f8QwrE4AAHj: Client is gone, closing socket
+2025-10-19 13:33:42,670 INFO engineio.server X_D8LC788f8QwrE4AAHj: Client is gone, closing socket
+2025-10-19 13:33:43,676 INFO engineio.server dHPkVaVEzVA4LG3VAAHk: Client is gone, closing socket
+2025-10-19 13:33:43,676 INFO engineio.server dHPkVaVEzVA4LG3VAAHk: Client is gone, closing socket
+2025-10-19 13:33:47,367 INFO engineio.server YwTyrQXB68_l2RU0AABS: Sending packet PING data None
+2025-10-19 13:33:47,373 INFO engineio.server YwTyrQXB68_l2RU0AABS: Received packet PONG data 
+2025-10-19 13:33:53,754 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:53] "GET /socket.io/?EIO=4&transport=polling&t=PdzY8qk&sid=Ghu3EcH5g5LscV10AAHr HTTP/1.1" 200 -
+2025-10-19 13:33:53,752 INFO engineio.server Ghu3EcH5g5LscV10AAHr: Sending packet PING data None
+2025-10-19 13:33:53,763 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:53,764 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:53] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzYC5Z&sid=Nwcv3IKLP3r-KrblAAHw HTTP/1.1[0m" 400 -
+2025-10-19 13:33:53,768 INFO engineio.server 4n2gTkNK_udLG_KGAAHx: Sending packet OPEN data {'sid': '4n2gTkNK_udLG_KGAAHx', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:33:53,770 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:53] "GET /socket.io/?EIO=4&transport=polling&t=PdzYCOo HTTP/1.1" 200 -
+2025-10-19 13:33:53,777 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:53,777 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:53] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzYExj&sid=4n2gTkNK_udLG_KGAAHx HTTP/1.1[0m" 400 -
+2025-10-19 13:33:55,860 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:55] "GET /socket.io/?EIO=4&transport=polling&t=PdzY9Lg.0&sid=m3WBmRqrTvvFI2BYAAHs HTTP/1.1" 200 -
+2025-10-19 13:33:55,860 INFO engineio.server m3WBmRqrTvvFI2BYAAHs: Sending packet PING data None
+2025-10-19 13:33:55,862 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:55,862 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:55] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzYExp&sid=4n2gTkNK_udLG_KGAAHx HTTP/1.1[0m" 400 -
+2025-10-19 13:33:55,864 INFO engineio.server Lzixxl1uBA6SaN9dAAHy: Sending packet OPEN data {'sid': 'Lzixxl1uBA6SaN9dAAHy', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:33:55,864 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:55] "GET /socket.io/?EIO=4&transport=polling&t=PdzYFKI HTTP/1.1" 200 -
+2025-10-19 13:33:55,871 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:55,872 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:55] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzYFSQ&sid=Lzixxl1uBA6SaN9dAAHy HTTP/1.1[0m" 400 -
+2025-10-19 13:33:57,903 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:57] "GET /socket.io/?EIO=4&transport=polling&t=PdzY9r7&sid=-YnL8aJEwNYsd8o9AAHt HTTP/1.1" 200 -
+2025-10-19 13:33:57,892 INFO engineio.server -YnL8aJEwNYsd8o9AAHt: Sending packet PING data None
+2025-10-19 13:33:57,912 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:57,913 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:57] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzYFSY&sid=Lzixxl1uBA6SaN9dAAHy HTTP/1.1[0m" 400 -
+2025-10-19 13:33:57,916 INFO engineio.server VTizzpWghOBPIeqrAAHz: Sending packet OPEN data {'sid': 'VTizzpWghOBPIeqrAAHz', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:33:57,918 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:57] "GET /socket.io/?EIO=4&transport=polling&t=PdzYFpZ HTTP/1.1" 200 -
+2025-10-19 13:33:57,930 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:57,930 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:57] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzYFyX&sid=VTizzpWghOBPIeqrAAHz HTTP/1.1[0m" 400 -
+2025-10-19 13:33:59,857 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:59] "GET /socket.io/?EIO=4&transport=polling&t=PdzYAK5&sid=-GQstinu881Lyjl-AAHu HTTP/1.1" 200 -
+2025-10-19 13:33:59,855 INFO engineio.server -GQstinu881Lyjl-AAHu: Sending packet PING data None
+2025-10-19 13:33:59,866 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:59,867 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:59] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzYFyh&sid=VTizzpWghOBPIeqrAAHz HTTP/1.1[0m" 400 -
+2025-10-19 13:33:59,873 INFO engineio.server Hm8facZoBO5DQgOCAAH0: Sending packet OPEN data {'sid': 'Hm8facZoBO5DQgOCAAH0', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-19 13:33:59,874 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:59] "GET /socket.io/?EIO=4&transport=polling&t=PdzYGIv HTTP/1.1" 200 -
+2025-10-19 13:33:59,880 INFO engineio.server http://127.0.0.1:5000 is not an accepted origin.
+2025-10-19 13:33:59,880 INFO werkzeug 127.0.0.1 - - [19/Oct/2025 13:33:59] "[31m[1mPOST /socket.io/?EIO=4&transport=polling&t=PdzYGR3&sid=Hm8facZoBO5DQgOCAAH0 HTTP/1.1[0m" 400 -
+2025-10-19 13:34:00,755 INFO engineio.server k9beUO86iMlJ_ymKAAHl: Client is gone, closing socket
+2025-10-19 13:34:00,756 INFO engineio.server k9beUO86iMlJ_ymKAAHl: Client is gone, closing socket
