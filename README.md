@@ -55,214 +55,113 @@ A full-stack web application that uses artificial intelligence to detect and rep
 
 ## 📁 Project Structure
 
-ai-pothole-detection/
-├── backend/
-│ ├── app.py
-│ ├── potholes.db
-│ ├── static/
-│ │ ├── uploads/
-│ │ └── thumbs/
-│ └── requirements.txt
-├── frontend/
-│ ├── public/
-│ │ └── index.html
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── context/
-│ │ ├── utils/
-│ │ ├── App.js
-│ │ └── index.js
-│ ├── package.json
-│ └── .env
-└── README.md
+ai-pothole-detection/  
+├── 🐍 backend/  
+│   ├── `app.py` - Main Flask application  
+│   ├── `potholes.db` - SQLite database  
+│   ├── `static/`  
+│   │   ├── `uploads/` - Original uploaded images  
+│   │   └── `thumbs/` - Generated thumbnails  
+│   └── `requirements.txt` - Python dependencies  
 
+├── ⚛️ frontend/  
+│   ├── `public/`  
+│   │   └── `index.html` - HTML template  
+│   ├── `src/`  
+│   │   ├── `components/` - Reusable React components  
+│   │   ├── `pages/` - Page components  
+│   │   ├── `context/` - React context providers  
+│   │   ├── `utils/` - Helper functions and API  
+│   │   ├── `App.js` - Main App component  
+│   │   └── `index.js` - React entry point  
+│   ├── `package.json` - Node.js dependencies  
+│   └── `.env` - Environment variables  
+
+└── `README.md`
 
 ---
 
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Node.js 16+
-- Python 3.8+
-- Git
+- 🟢 Node.js 16+  
+- 🐍 Python 3.8+  
+- 🔧 Git  
 
----
+### 🧠 Full Setup Commands
 
-### 🧠 Terminal Commands (Full Setup)
-
-#### 1️⃣ Clone and Setup
-```bash
+#### 1️⃣ Clone Repository
+\`\`\`bash
 git clone https://github.com/your-username/ai-pothole-detection.git
 cd ai-pothole-detection
+\`\`\`
 
-2️⃣ Backend Setup
+#### 2️⃣ Backend Setup
+\`\`\`bash
 cd backend
 python -m venv venv
-source venv/bin/activate    # On Windows: venv\Scripts\activate
+source venv/bin/activate    # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
+\`\`\`
+✅ Backend running at: [http://localhost:5000](http://localhost:5000)
 
-
-✅ Runs at: http://localhost:5000
-
-3️⃣ Frontend Setup
+#### 3️⃣ Frontend Setup
+\`\`\`bash
 cd ../frontend
 npx create-react-app ./
 npm install axios bootstrap react-router-dom socket.io-client leaflet chart.js react-chartjs-2
 touch .env
+\`\`\`
 
-
-Paste in .env:
-
+Add environment variables to `.env`:
+\`\`\`env
 REACT_APP_API_BASE_URL=http://localhost:5000
 REACT_APP_SOCKET_URL=http://localhost:5000
+\`\`\`
 
-
-Start:
-
+Start frontend:
+\`\`\`bash
 npm start
+\`\`\`
+✅ Frontend running at: [http://localhost:3000](http://localhost:3000)
 
+---
 
-✅ Runs at: http://localhost:3000
+## 🔌 API Endpoints
 
-🔌 API Endpoints
-Method	Endpoint	Description	Auth
-POST	/api/register	Register new user	❌
-POST	/api/login	Login	❌
-GET	/api/reports	Get all reports	❌
-POST	/api/report	Create new report	✅
-POST	/api/analyze-image	Analyze image	✅
-GET	/api/comments	Fetch comments	❌
-POST	/api/comment	Add comment	✅
-POST	/api/vote	Vote	✅
-GET	/api/stats	Stats	❌
-🗃️ Database Schema
-👥 Users
-Column	Type	Description
-id	INTEGER	Primary key
-username	TEXT	Unique
-email	TEXT	Unique
-password_hash	TEXT	Hashed
-role	TEXT	user/admin
-created_at	TEXT	Timestamp
-📋 Reports
-Column	Type	Description
-id	INTEGER	Primary key
-user_id	INTEGER	FK users
-text	TEXT	Description
-lat/lon	REAL	Coordinates
-severity	TEXT	Level
-image_url	TEXT	File path
-ai_conf	REAL	AI confidence
-🎯 Usage
-👤 Users
+| Method | Endpoint | Description | Auth |
+|--------|----------|------------|------|
+| POST   | `/api/register`      | Register new user | ❌ |
+| POST   | `/api/login`         | Login           | ❌ |
+| GET    | `/api/reports`       | Get all reports | ❌ |
+| POST   | `/api/report`        | Create new report | ✅ |
+| POST   | `/api/analyze-image` | Analyze image   | ✅ |
+| GET    | `/api/comments`      | Fetch comments  | ❌ |
+| POST   | `/api/comment`       | Add comment     | ✅ |
+| POST   | `/api/vote`          | Vote on report  | ✅ |
+| GET    | `/api/stats`         | Community stats | ❌ |
 
-Register/Login
+---
 
-Upload pothole images
+## 🗃️ Database Schema
 
-See map reports
+### 👥 Users Table
+- `id` INTEGER - Primary key  
+- `username` TEXT - Unique username  
+- `email` TEXT - Unique email  
+- `password_hash` TEXT - Hashed password  
+- `role` TEXT - user/admin  
+- `created_at` TEXT - Account creation timestamp  
 
-Comment, vote, view analytics
+### 📋 Reports Table
+- `id` INTEGER - Primary key  
+- `user_id` INTEGER - Foreign key to users  
+- `text` TEXT - Report description  
+- `lat/lon` REAL - GPS coordinates  
+- `severity` TEXT - Pothole severity level  
+- `image_url` TEXT - Original image path  
+- `ai_conf` REAL - AI confidence score  
 
-👨‍💼 Admin
+---
 
-Manage users
-
-Verify reports
-
-Monitor AI analytics
-
-🔒 Security
-
-JWT Authentication
-
-Password Hashing
-
-SQL Injection Prevention
-
-Input Validation
-
-CORS Enabled
-
-🚀 Deployment
-Backend
-gunicorn -k eventlet -w 1 -b 0.0.0.0:5000 app:app
-
-Frontend
-npm run build
-npm install -g serve
-serve -s build
-
-🤝 Contributing
-
-Fork
-
-Create a branch
-
-Commit changes
-
-Push & open PR
-
-📝 License
-
-MIT License
-
-🙏 Acknowledgments
-
-YOLOv8 by Ultralytics
-
-OpenStreetMap
-
-Bootstrap
-
-React community
-
-🗺️ Roadmap
-
-📱 Mobile App
-
-🤖 Model Retraining
-
-🏛️ Gov Integration
-
-🌍 Multi-language
-
-📈 Advanced Analytics
-
-🔔 Notifications
-
-🎨 Screenshots
-🔐 Authentication
-┌──────────────────────────────┐
-│ 🕳️ AI Pothole Detection      │
-│ Email: [___________]         │
-│ Password: [_________]        │
-│ [ Login ] [ Register ]       │
-└──────────────────────────────┘
-
-🗺️ Dashboard
-┌────────────────────────────────────────────┐
-│ Navbar: Home | Map | Reports | Dashboard   │
-├──────────────┬──────────────────────────────┤
-│ 📊 Stats     │ 🗺️ Map + Reports            │
-│ 📸 Upload    │ [Pothole Markers]           │
-│ 🤖 AI Result │ 👍 Votes 👎 Reports          │
-└──────────────┴──────────────────────────────┘
-
-📊 Status
-
-
-
-
-
-
-
-
-<div align="center">
-
-⭐ Built with ❤️ for safer communities and better roads 🛣️
-© 2025 AI Pothole Detection Community
-
-</div> ```
