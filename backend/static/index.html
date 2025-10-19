@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>DeepSeek — Global Pothole Map</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+  :root {
+    --bg1: #0f172a; --bg2:#0b1220;
+    --card:#0f172a; --glass: rgba(255,255,255,0.04);
+    --accent:#4f46e5; --accent-2:#06b6d4; --muted:#94a3b8;
+    --radius:12px; --shadow: 0 10px 30px rgba(2,6,23,0.6);
+  }
+  *{box-sizing:border-box}
+  html,body{height:100%;margin:0;font-family:Inter,system-ui,sans-serif;color:#e6eef8;background:linear-gradient(180deg,var(--bg1),#081028 60%);}
+  header{position:sticky;top:0;z-index:10;background:rgba(15,23,42,.8);backdrop-filter:blur(6px);}
+  .container{max-width:1200px;margin:auto;padding:14px;}
+  .header-row{display:flex;justify-content:space-between;align-items:center;}
+  .brand{display:flex;align-items:center;gap:10px}
+  .nav a{color:var(--muted);text-decoration:none;margin:0 10px}
+  .nav a.active,.nav a:hover{color:#fff}
+  .main{display:grid;grid-template-columns:340px 1fr;gap:16px;padding:20px;}
+  .sidebar{background:rgba(255,255,255,.03);border-radius:12px;padding:12px;box-shadow:var(--shadow);}
+  .content{border-radius:12px;}
+  #globeWrap{height:550px;border-radius:12px;background:#010818;position:relative}
+  canvas{width:100%;height:100%}
+  .report-list{max-height:250px;overflow:auto;margin-top:10px}
+  .report{padding:8px;margin-bottom:8px;border-radius:8px;background:rgba(255,255,255,.03)}
+  footer{text-align:center;padding:12px;color:var(--muted);font-size:13px;}
+</style>
+</head>
+<body>
+<header>
+  <div class="container header-row">
+    <div class="brand">
+      <i class="fa fa-globe-americas" style="color:var(--accent)"></i>
+      <h2>DeepSeek • Pothole Map</h2>
+    </div>
+    <nav class="nav">
+      <a href="#" class="active">Home</a>
+      <a href="#">Modules</a>
+      <a href="#">Resources</a>
+      <a href="#">Community</a>
+      <a href="#">About</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container main">
+  <aside class="sidebar">
+    <h3>Learning Flow</h3>
+    <p>Click anywhere on the globe to report potholes. Data is saved to your local Flask backend (SQLite).</p>
+    <h4>Local Notes</h4>
+    <textarea id="noteInput" placeholder="Add your note..." style="width:100%;min-height:80px"></textarea>
+    <button id="addNoteBtn">Add</button>
+    <button id="clearNotesBtn">Clear</button>
+    <div id="notesContainerLocal" style="margin-top:10px;font-size:13px;color:var(--muted)"></div>
+  </aside>
+
+  <section class="content">
+    <h3>Global 3D Map</h3>
+    <div id="globeWrap"></div>
+
+    <h4>Reports</h4>
+    <div id="globalReports" class="report-list"></div>
+  </section>
+</main>
+
+<footer>© DeepSeek — Local Flask API connected</footer>
+
+<!-- Three.js libraries -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r152/three.min.js"></script>
+<script src="https://threejs.org/examples/js/controls/OrbitControls.js"></script>
+
+<!-- Your app code -->
+<script>
+window.onload = () => {
+  const API_BASE = "http://127.0.0.1:5000/api";
+
+  function escapeHtml(str){
+    return String(str).replace(/[&<>]/g,s=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[s]));
+  }
+
+  async function loadReports(){
+    const container = document.getElementById('globalReports');
+    container.innerHTML = '<p>Loading reports...</p>';
+    try{
+      const res = await fetch(`${API_BASE}/reports`);
+      const data = await res.json();
+      container.innerHTML = '';
+      data.forEach(r=>{
+        const el = document.createElement('div');
+        el.className='report';
+        el.innerHTML = `<div><b>${escapeHtml(r.text)}</b><br><small>${r.severity} | ${Number(r.lat).toFixed(2)}, ${Number(r.lon).toFixed(2)}</small></div>`;
+        container.appendChild(el);
+        createMarker(r.id, parseFloat(r.lat), parseFloat(r.lon), r.severity);
+      });
+    }catch(err){
+      container.innerHTML = '<p style="color:red">Failed to load reports</p>';
+      console.error(err);
+    }
+  }
+
+  let scene, camera, renderer, controls, globe, raycaster, pointer;
+  const markers = new THREE.Group();
+
+  function initThree(){
+    renderer = new THREE.WebGLRenderer({antialias:true});
+    const wrap = document.getElementById('globeWrap');
+    renderer.setSize(wrap.clientWidth, wrap.clientHeight);
+    wrap.appendChild(renderer.domElement);
+
+    scene = new THREE.Scene();
+    camera = new THREE.PerspectiveCamera(35, wrap.clientWidth/wrap.clientHeight, 0.1, 2000);
+    camera.position.z = 6;
+
+    const amb = new THREE.AmbientLight(0xffffff,0.7);
+    const dir = new THREE.DirectionalLight(0xffffff,0.5);
+    dir.position.set(5,3,5);
+    scene.add(amb, dir);
+
+    const geo = new THREE.SphereGeometry(2,64,64);
+    const tex = new THREE.TextureLoader().load('https://threejs.org/examples/textures/land_ocean_ice_cloud_2048.jpg');
+    const mat = new THREE.MeshStandardMaterial({map:tex});
+    globe = new THREE.Mesh(geo, mat);
+    scene.add(globe);
+
+    scene.add(markers);
+
+    controls = new THREE.OrbitControls(camera, renderer.domElement);
+    controls.enableDamping = true;
+
+    raycaster = new THREE.Raycaster();
+    pointer = new THREE.Vector2();
+    renderer.domElement.addEventListener('pointerdown', onPointerDown);
+    animate();
+  }
+
+  function animate(){
+    requestAnimationFrame(animate);
+    globe.rotation.y += 0.0006;
+    controls.update();
+    renderer.render(scene, camera);
+  }
+
+  function latLonToVec(lat, lon, r=2.02){
+    const phi = (90-lat)*Math.PI/180;
+    const theta = (lon+180)*Math.PI/180;
+    const x = -(r*Math.sin(phi)*Math.cos(theta));
+    const z = r*Math.sin(phi)*Math.sin(theta);
+    const y = r*Math.cos(phi);
+    return new THREE.Vector3(x,y,z);
+  }
+
+  function createMarker(id, lat, lon, severity){
+    const color = severity==='severe'?0xff4d4f:(severity==='minor'?0xffc107:0x4ade80);
+    const geom = new THREE.SphereGeometry(0.05,12,12);
+    const mat = new THREE.MeshStandardMaterial({color});
+    const m = new THREE.Mesh(geom, mat);
+    m.position.copy(latLonToVec(lat, lon));
+    markers.add(m);
+  }
+
+  async function onPointerDown(e){
+    const rect = renderer.domElement.getBoundingClientRect();
+    pointer.x = ((e.clientX - rect.left)/rect.width)*2 - 1;
+    pointer.y = -((e.clientY - rect.top)/rect.height)*2 + 1;
+    raycaster.setFromCamera(pointer, camera);
+    const hits = raycaster.intersectObject(globe);
+    if(hits.length){
+      const p = hits[0].point.clone().normalize();
+      const lat = 90 - (Math.acos(p.y)*180/Math.PI);
+      const lon = ((Math.atan2(p.z, -p.x)*180/Math.PI)-180)*-1;
+      const text = prompt(`Report pothole\nLat: ${lat.toFixed(4)}, Lon: ${lon.toFixed(4)}\nDescription:`);
+      if(!text) return;
+      const severity = prompt('Severity (minor / medium / severe)', 'medium') || 'medium';
+      const payload = {text,lat,lon,severity};
+      try{
+        await fetch(`${API_BASE}/report`, {
+          method:'POST',
+          headers:{'Content-Type':'application/json'},
+          body:JSON.stringify(payload)
+        });
+        alert('Report added!');
+        loadReports();
+      }catch(err){
+        alert('Failed to add report.');
+        console.error(err);
+      }
+    }
+  }
+
+  function loadNotes(){
+    const notes = JSON.parse(localStorage.getItem('deepseek_notes')||'[]');
+    const cont = document.getElementById('notesContainerLocal');
+    cont.innerHTML = notes.map(n=>`<div class='report'><b>${escapeHtml(n.text)}</b><br><small>${new Date(n.ts).toLocaleString()}</small></div>`).join('') || 'No notes yet.';
+  }
+
+  document.getElementById('addNoteBtn').onclick=()=>{
+    const t=document.getElementById('noteInput').value.trim();if(!t)return;
+    const notes=JSON.parse(localStorage.getItem('deepseek_notes')||'[]');
+    notes.unshift({text:t,ts:Date.now()});
+    localStorage.setItem('deepseek_notes',JSON.stringify(notes));
+    document.getElementById('noteInput').value='';
+    loadNotes();
+  };
+  document.getElementById('clearNotesBtn').onclick=()=>{localStorage.removeItem('deepseek_notes');loadNotes();};
+
+  initThree();
+  loadReports();
+  loadNotes();
+};
+</script>
+</body>
+</html>
