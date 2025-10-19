@@ -325,4 +325,4 @@ https://img.shields.io/badge/AI_Model-%E2%9C%85_YOLOv8-success
 ⭐ Don't forget to star this repo if you find it useful! ⭐
 Built with ❤️ for safer communities and better roads 🛣️
 
-</div>
+</div> ```
