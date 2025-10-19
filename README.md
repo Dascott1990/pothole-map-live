@@ -16,7 +16,7 @@
 1. Clone the repository:
 ```bash
 git clone https://github.com/Dascott1990/pothole-map-live.git
-cd ai-pothole-detection-community
+cd Map-Learning/backend
 ```
 
 2. Create a virtual environment:
