@@ -165,3 +165,72 @@ npm start
 
 ---
 
+## 🤝 Contributing
+
+- 🍴 Fork the repository  
+- 🌿 Create a feature branch  
+- 💾 Commit changes  
+- 📤 Push & open a Pull Request  
+
+---
+
+## 📝 License
+
+MIT License
+
+---
+
+## 🙏 Acknowledgments
+
+- 🎯 YOLOv8 by Ultralytics  
+- 🗺️ OpenStreetMap  
+- 🎨 Bootstrap  
+- ⚛️ React community  
+
+---
+
+## 🗺️ Roadmap
+
+- 📱 Mobile App Development  
+- 🤖 AI Model Retraining  
+- 🏛️ Government Integration APIs  
+- 🌍 Multi-language Support  
+- 📈 Advanced Analytics  
+- 🔔 Push Notifications  
+
+---
+
+## 🎨 Screenshots
+
+### 🔐 Authentication
+┌──────────────────────────────┐  
+│ 🕳️ AI Pothole Detection      │  
+│ Email: [___________]         │  
+│ Password: [_________]        │  
+│ [ Login ] [ Register ]       │  
+└──────────────────────────────┘  
+
+### 🗺️ Dashboard
+┌────────────────────────────────────────────┐  
+│ Navbar: Home | Map | Reports | Dashboard   │  
+├──────────────┬──────────────────────────────┤  
+│ 📊 Stats     │ 🗺️ Map + Reports            │  
+│ 📸 Upload    │ [Pothole Markers]           │  
+│ 🤖 AI Result │ 👍 Votes 👎 Reports          │  
+└──────────────┴──────────────────────────────┘  
+
+### 📊 Analytics
+┌──────────────────────────────┐  
+│ Reports: ████████ 85         │  
+│ Users:   ██████ 42           │  
+│ AI Conf: █████ 78%           │  
+└──────────────────────────────┘  
+
+### 📊 Project Status
+![Completion](https://img.shields.io/badge/Completion-95%25-brightgreen)
+![Backend](https://img.shields.io/badge/Backend-%E2%9C%85_Ready-success)
+![Frontend](https://img.shields.io/badge/Frontend-%E2%9C%85_Ready-success)
+![AI_Model](https://img.shields.io/badge/AI_Model-%E2%9C%85_YOLOv8-success)
+
+⭐ Built with ❤️ for safer communities and better roads 🛣️  
+© 2025 AI Pothole Detection Community
