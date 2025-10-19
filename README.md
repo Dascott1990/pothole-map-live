@@ -15,7 +15,7 @@
 ## Installation
 1. Clone the repository:
 ```bash
-git clone https://github.com/dascott1990/ai-pothole-detection-community.git
+git clone https://github.com/Dascott1990/pothole-map-live.git
 cd ai-pothole-detection-community
 ```
 
