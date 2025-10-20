@@ -206,7 +206,7 @@ pothole-detection/
 ## 📺️ Screenshots
 ![Screenshot.PNG](Screenshot.PNG)
 ![sreenshots.png](sreenshots.png)
-
+![truct-capture.png](truct-capture.png)
 
 ### Running Tests
 ```bash
