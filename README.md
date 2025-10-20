@@ -208,6 +208,9 @@ pothole-detection/
 ![sreenshots.png](sreenshots.png)
 ![truct-capture.png](truct-capture.png)
 ![persons-captures.png](persons-captures.png)
+![different-objects.png](different-objects.png)
+
+
 
 ### Running Tests
 ```bash

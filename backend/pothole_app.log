@@ -35089,3 +35089,926 @@
 2025-10-20 07:17:38,784 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
 2025-10-20 07:17:38,784 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
 2025-10-20 07:17:38,785 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:17:53,091 INFO engineio.server jOcVJ34zZEivRUtQAAAM: Sending packet PING data None
+2025-10-20 07:17:53,102 INFO engineio.server jOcVJ34zZEivRUtQAAAM: Received packet PONG data 
+2025-10-20 07:18:03,791 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:18:03,791 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:18:03,791 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:18:03,804 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:18:03,805 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:18:03,805 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:18:18,106 INFO engineio.server jOcVJ34zZEivRUtQAAAM: Sending packet PING data None
+2025-10-20 07:18:18,110 INFO engineio.server jOcVJ34zZEivRUtQAAAM: Received packet PONG data 
+2025-10-20 07:18:28,809 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:18:28,809 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:18:28,810 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:18:28,811 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:18:28,811 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:18:28,811 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:18:43,114 INFO engineio.server jOcVJ34zZEivRUtQAAAM: Sending packet PING data None
+2025-10-20 07:18:43,117 INFO engineio.server jOcVJ34zZEivRUtQAAAM: Received packet PONG data 
+2025-10-20 07:18:53,814 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:18:53,814 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:18:53,817 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:18:53,817 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:18:53,817 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:18:53,819 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:19:08,123 INFO engineio.server jOcVJ34zZEivRUtQAAAM: Sending packet PING data None
+2025-10-20 07:19:08,131 INFO engineio.server jOcVJ34zZEivRUtQAAAM: Received packet PONG data 
+2025-10-20 07:19:18,825 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:19:18,828 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:19:18,829 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:19:18,838 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:19:18,839 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:19:18,839 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:19:29,476 INFO __main__ ❌ Client disconnected from Socket.IO
+2025-10-20 07:19:29,477 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "GET /socket.io/?EIO=4&transport=websocket&sid=jOcVJ34zZEivRUtQAAAM HTTP/1.1" 200 -
+2025-10-20 07:19:29,643 INFO engineio.server OWMA9_5E_wh0Pit3AAAO: Sending packet OPEN data {'sid': 'OWMA9_5E_wh0Pit3AAAO', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-20 07:19:29,644 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "GET /socket.io/?EIO=4&transport=polling&t=1mfe0h92 HTTP/1.1" 200 -
+2025-10-20 07:19:29,654 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet OPEN data {'sid': '-2a0Ct-P89Awaxx_AAAP', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-20 07:19:29,655 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "GET /socket.io/?EIO=4&transport=polling&t=1mfe2gl2 HTTP/1.1" 200 -
+2025-10-20 07:19:29,660 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:19:29,661 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "OPTIONS /api/reports?page=1&limit=12 HTTP/1.1" 200 -
+2025-10-20 07:19:29,661 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "OPTIONS /api/stats HTTP/1.1" 200 -
+2025-10-20 07:19:29,661 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:19:29,661 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:19:29,662 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:19:29,663 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "OPTIONS /api/reports?page=1&limit=12 HTTP/1.1" 200 -
+2025-10-20 07:19:29,665 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "OPTIONS /api/stats HTTP/1.1" 200 -
+2025-10-20 07:19:29,671 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received request to upgrade to websocket
+2025-10-20 07:19:29,671 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet MESSAGE data 0
+2025-10-20 07:19:29,688 INFO __main__ ✅ Client connected to Socket.IO
+2025-10-20 07:19:29,688 INFO socketio.server emitting event "connected" to WEIF0q8ekJV9Z4yzAAAQ [/]
+2025-10-20 07:19:29,689 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet MESSAGE data 2["connected",{"message":"Connected to Pothole Map","timestamp":"2025-10-20T11:19:29.688492"}]
+2025-10-20 07:19:29,689 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "GET /socket.io/?EIO=4&transport=polling&t=1mfestjg&sid=-2a0Ct-P89Awaxx_AAAP HTTP/1.1" 200 -
+2025-10-20 07:19:29,689 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet MESSAGE data 0{"sid":"WEIF0q8ekJV9Z4yzAAAQ"}
+2025-10-20 07:19:29,691 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "POST /socket.io/?EIO=4&transport=polling&t=1mfespm5&sid=-2a0Ct-P89Awaxx_AAAP HTTP/1.1" 200 -
+2025-10-20 07:19:29,694 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+2025-10-20 07:19:29,695 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "[35m[1mGET /api/reports?page=1&limit=12 HTTP/1.1[0m" 500 -
+2025-10-20 07:19:29,695 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Upgrade to websocket successful
+2025-10-20 07:19:29,695 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:19:29,701 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "[35m[1mGET /api/reports?page=1&limit=12 HTTP/1.1[0m" 500 -
+2025-10-20 07:19:29,702 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+2025-10-20 07:19:29,703 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:19:29,706 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:19:29,709 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:19:29] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:19:43,847 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:19:43,847 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:19:43,847 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:19:43,853 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:19:43,853 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:19:43,853 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:19:54,649 INFO engineio.server OWMA9_5E_wh0Pit3AAAO: Sending packet PING data None
+2025-10-20 07:19:54,660 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:19:54,663 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:20:08,856 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:20:08,856 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:20:08,859 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:20:08,859 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:20:08,859 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:20:08,862 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:20:19,664 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:20:19,666 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:20:21,436 INFO engineio.server OWMA9_5E_wh0Pit3AAAO: Client is gone, closing socket
+2025-10-20 07:20:21,437 INFO engineio.server OWMA9_5E_wh0Pit3AAAO: Client is gone, closing socket
+2025-10-20 07:20:33,864 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:20:33,864 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:20:33,864 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:20:33,866 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:20:33,867 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:20:33,867 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:20:44,668 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:20:44,671 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:20:58,870 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:20:58,872 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:20:58,872 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:20:58,882 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:20:58,883 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:20:58,884 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:21:09,675 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:21:09,680 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:21:23,889 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:21:23,889 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:21:23,889 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:21:23,892 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:21:23,892 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:21:23,892 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:21:34,685 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:21:34,687 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:21:48,894 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:21:48,896 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:21:48,896 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:21:48,904 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:21:48,904 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:21:48,904 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:21:59,693 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:21:59,700 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:22:13,910 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:22:13,910 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:22:13,912 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:22:13,915 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:22:13,916 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:22:13,916 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:22:24,707 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:22:24,709 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:22:38,922 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:22:38,924 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:22:38,924 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:22:38,925 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:22:38,925 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:22:38,925 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:22:49,719 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:22:49,722 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:23:03,935 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:23:03,936 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:23:03,936 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:23:03,938 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:23:03,938 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:23:03,938 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:23:14,728 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:23:14,730 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:23:28,940 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:23:28,940 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:23:28,945 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:23:28,945 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:23:28,946 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:23:28,949 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:23:39,736 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:23:39,738 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:23:53,955 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:23:53,955 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:23:53,956 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:23:53,958 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:23:53,958 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:23:53,958 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:24:04,749 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:24:04,753 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:24:18,962 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:24:18,966 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:24:18,968 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:24:18,968 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:24:18,974 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:24:18,974 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:24:29,756 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:24:29,758 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:24:43,968 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:24:43,970 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:24:43,975 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:24:43,976 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:24:43,977 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:24:43,979 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:24:54,760 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:24:54,762 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:25:08,977 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:25:08,979 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:25:08,986 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:25:08,987 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:25:08,987 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:25:08,988 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:25:19,773 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:25:19,777 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:25:33,986 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:25:33,989 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:25:33,989 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:25:33,991 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:25:33,996 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:25:33,998 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:25:44,780 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:25:44,782 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:25:58,997 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:25:58,998 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:25:58,999 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:25:58,999 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:25:59,000 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:25:59,000 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:26:09,786 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:26:09,788 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:26:24,006 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:26:24,008 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:26:24,009 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:26:24,009 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:26:24,010 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:26:24,011 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:26:34,797 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:26:34,799 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:26:49,018 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:26:49,020 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:26:49,021 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:26:49,021 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:26:49,023 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:26:49,023 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:26:59,810 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:26:59,813 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:27:14,022 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:27:14,024 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:27:14,030 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:27:14,031 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:27:14,032 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:27:14,033 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:27:24,813 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:27:24,817 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:27:39,034 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:27:39,036 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:27:39,037 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:27:39,037 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:27:39,038 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:27:39,039 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:27:49,822 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:27:49,825 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:28:04,039 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:28:04,041 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:28:04,045 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:28:04,046 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:28:04,047 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:28:04,048 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:28:14,836 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:28:14,838 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:28:29,047 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:28:29,049 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:28:29,054 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:28:29,055 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:28:29,056 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:28:29,056 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:28:39,849 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:28:39,851 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:28:54,053 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:28:54,055 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:28:54,062 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:28:54,064 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:28:54,067 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:28:54,069 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:29:04,855 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:29:04,857 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:29:19,062 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:29:19,063 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:29:19,070 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:29:19,071 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:29:19,077 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:29:19,084 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:29:29,861 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:29:29,864 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:29:44,068 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:29:44,070 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:29:44,079 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:29:44,080 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:29:44,094 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:29:44,095 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:29:54,875 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:29:54,876 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:30:09,072 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:30:09,076 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:30:09,088 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:30:09,091 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:30:09,106 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:30:09,110 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:30:19,887 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:30:19,890 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:30:34,086 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:30:34,088 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:30:34,094 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:30:34,095 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:30:34,112 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:30:34,113 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:30:44,895 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:30:44,897 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:30:59,099 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:30:59,104 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:30:59,105 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:30:59,108 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:30:59,116 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:30:59,120 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:31:09,903 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:31:09,907 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:31:24,112 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:31:24,113 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:31:24,115 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:31:24,116 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:31:24,126 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:31:24,128 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:31:34,911 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:31:34,917 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:31:49,120 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:31:49,121 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:31:49,129 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:31:49,133 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:31:49,133 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:31:49,133 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:31:59,921 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:31:59,923 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:32:14,138 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:32:14,140 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:32:14,141 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:32:14,141 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:32:14,143 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:32:14,143 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:32:24,928 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:32:24,931 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:32:39,145 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:32:39,148 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:32:39,153 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:32:39,153 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:32:39,154 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:32:39,155 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:32:49,941 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:32:49,944 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:33:04,158 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:33:04,162 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:33:04,162 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:33:04,162 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:33:04,166 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:33:04,169 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:33:14,953 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:33:14,955 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:33:29,170 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:33:29,171 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:33:29,172 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:33:29,173 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:33:29,173 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:33:29,173 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:33:39,961 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:33:39,964 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:33:54,176 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:33:54,176 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:33:54,178 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:33:54,178 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:33:54,185 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:33:54,186 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:34:04,970 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:34:04,973 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:34:19,188 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:34:19,189 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:34:19,192 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:34:19,196 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:34:19,196 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:34:19,197 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:34:29,984 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:34:29,988 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:34:44,201 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:34:44,201 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:34:44,202 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:34:44,203 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:34:44,204 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:34:44,205 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:34:54,992 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:34:54,995 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:35:09,212 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:35:09,215 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:35:09,219 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:35:09,229 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:35:09,230 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:35:09,230 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:35:20,001 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Sending packet PING data None
+2025-10-20 07:35:20,009 INFO engineio.server -2a0Ct-P89Awaxx_AAAP: Received packet PONG data 
+2025-10-20 07:35:29,430 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:29] "OPTIONS /api/analyze-image HTTP/1.1" 200 -
+2025-10-20 07:35:29,483 ERROR __main__ Detection error: need at least one array to stack
+2025-10-20 07:35:30,352 ERROR __main__ Thumbnail error: cannot identify image file '/Users/dascott/Documents/Map-Learning/backend/static/uploads/20251020113529_IMG_0458.png'
+2025-10-20 07:35:30,352 INFO __main__ ✅ User Rasheed analyzed image: 0 detections
+2025-10-20 07:35:30,353 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:30] "POST /api/analyze-image HTTP/1.1" 200 -
+2025-10-20 07:35:32,758 INFO __main__ ❌ Client disconnected from Socket.IO
+2025-10-20 07:35:32,760 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "GET /socket.io/?EIO=4&transport=websocket&sid=-2a0Ct-P89Awaxx_AAAP HTTP/1.1" 200 -
+2025-10-20 07:35:32,917 INFO engineio.server dJVrGfekKCFdhpOUAAAR: Sending packet OPEN data {'sid': 'dJVrGfekKCFdhpOUAAAR', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-20 07:35:32,917 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "GET /socket.io/?EIO=4&transport=polling&t=272nn9n6 HTTP/1.1" 200 -
+2025-10-20 07:35:32,917 INFO engineio.server KcIJoMhKCUFmHdJRAAAS: Sending packet OPEN data {'sid': 'KcIJoMhKCUFmHdJRAAAS', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-20 07:35:32,918 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "GET /socket.io/?EIO=4&transport=polling&t=272nohmj HTTP/1.1" 200 -
+2025-10-20 07:35:32,927 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:35:32,929 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:35:32,930 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "OPTIONS /api/reports?page=1&limit=12 HTTP/1.1" 200 -
+2025-10-20 07:35:32,932 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "OPTIONS /api/stats HTTP/1.1" 200 -
+2025-10-20 07:35:32,933 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:35:32,933 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:35:32,939 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "OPTIONS /api/reports?page=1&limit=12 HTTP/1.1" 200 -
+2025-10-20 07:35:32,941 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "OPTIONS /api/stats HTTP/1.1" 200 -
+2025-10-20 07:35:32,942 INFO engineio.server KcIJoMhKCUFmHdJRAAAS: Received request to upgrade to websocket
+2025-10-20 07:35:32,943 INFO engineio.server KcIJoMhKCUFmHdJRAAAS: Received packet MESSAGE data 0
+2025-10-20 07:35:32,943 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "GET /socket.io/?EIO=4&transport=polling&t=272o2py7&sid=KcIJoMhKCUFmHdJRAAAS HTTP/1.1" 200 -
+2025-10-20 07:35:32,948 INFO __main__ ✅ Client connected to Socket.IO
+2025-10-20 07:35:32,949 INFO socketio.server emitting event "connected" to vk2aoDUFSalsWIiJAAAT [/]
+2025-10-20 07:35:32,949 INFO engineio.server KcIJoMhKCUFmHdJRAAAS: Sending packet MESSAGE data 2["connected",{"message":"Connected to Pothole Map","timestamp":"2025-10-20T11:35:32.949577"}]
+2025-10-20 07:35:32,950 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "GET /socket.io/?EIO=4&transport=polling&t=272okldb&sid=KcIJoMhKCUFmHdJRAAAS HTTP/1.1" 200 -
+2025-10-20 07:35:32,950 INFO engineio.server KcIJoMhKCUFmHdJRAAAS: Sending packet MESSAGE data 0{"sid":"vk2aoDUFSalsWIiJAAAT"}
+2025-10-20 07:35:32,950 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "POST /socket.io/?EIO=4&transport=polling&t=272o2ve3&sid=KcIJoMhKCUFmHdJRAAAS HTTP/1.1" 200 -
+2025-10-20 07:35:32,954 INFO engineio.server KcIJoMhKCUFmHdJRAAAS: Upgrade to websocket successful
+2025-10-20 07:35:32,956 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:35:32,958 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "[35m[1mGET /api/reports?page=1&limit=12 HTTP/1.1[0m" 500 -
+2025-10-20 07:35:32,959 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+2025-10-20 07:35:32,963 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "[35m[1mGET /api/reports?page=1&limit=12 HTTP/1.1[0m" 500 -
+2025-10-20 07:35:32,964 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:35:32,967 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+2025-10-20 07:35:32,970 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:35:32,978 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:35:32] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:35:34,235 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:35:34,235 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:35:34,235 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:35:34,241 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:35:34,243 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:35:34,244 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:35:57,925 INFO engineio.server dJVrGfekKCFdhpOUAAAR: Sending packet PING data None
+2025-10-20 07:35:57,929 INFO engineio.server KcIJoMhKCUFmHdJRAAAS: Sending packet PING data None
+2025-10-20 07:35:57,939 INFO engineio.server KcIJoMhKCUFmHdJRAAAS: Received packet PONG data 
+2025-10-20 07:35:59,247 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:35:59,247 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:35:59,249 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:35:59,259 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:35:59,259 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:35:59,260 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:36:20,033 INFO __main__ ❌ Client disconnected from Socket.IO
+2025-10-20 07:36:20,040 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "GET /socket.io/?EIO=4&transport=websocket&sid=KcIJoMhKCUFmHdJRAAAS HTTP/1.1" 200 -
+2025-10-20 07:36:20,174 INFO engineio.server KNb6rRpIyfquzDwBAAAU: Sending packet OPEN data {'sid': 'KNb6rRpIyfquzDwBAAAU', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-20 07:36:20,175 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet OPEN data {'sid': '2YiHMFOXdPbFpQa_AAAV', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-20 07:36:20,175 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "GET /socket.io/?EIO=4&transport=polling&t=283489f3 HTTP/1.1" 200 -
+2025-10-20 07:36:20,175 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "GET /socket.io/?EIO=4&transport=polling&t=2834b3wo HTTP/1.1" 200 -
+2025-10-20 07:36:20,188 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:36:20,188 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:36:20,188 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "OPTIONS /api/reports?page=1&limit=12 HTTP/1.1" 200 -
+2025-10-20 07:36:20,189 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "OPTIONS /api/stats HTTP/1.1" 200 -
+2025-10-20 07:36:20,189 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:36:20,190 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:36:20,192 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "OPTIONS /api/stats HTTP/1.1" 200 -
+2025-10-20 07:36:20,192 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "OPTIONS /api/reports?page=1&limit=12 HTTP/1.1" 200 -
+2025-10-20 07:36:20,199 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet MESSAGE data 0
+2025-10-20 07:36:20,200 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received request to upgrade to websocket
+2025-10-20 07:36:20,201 INFO __main__ ✅ Client connected to Socket.IO
+2025-10-20 07:36:20,207 INFO socketio.server emitting event "connected" to 48rGLxEssDpAegrjAAAW [/]
+2025-10-20 07:36:20,210 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "GET /socket.io/?EIO=4&transport=polling&t=2834r72b&sid=2YiHMFOXdPbFpQa_AAAV HTTP/1.1" 200 -
+2025-10-20 07:36:20,208 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet MESSAGE data 2["connected",{"message":"Connected to Pothole Map","timestamp":"2025-10-20T11:36:20.207258"}]
+2025-10-20 07:36:20,213 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet MESSAGE data 0{"sid":"48rGLxEssDpAegrjAAAW"}
+2025-10-20 07:36:20,214 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "POST /socket.io/?EIO=4&transport=polling&t=2834qnee&sid=2YiHMFOXdPbFpQa_AAAV HTTP/1.1" 200 -
+2025-10-20 07:36:20,214 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "GET /socket.io/?EIO=4&transport=polling&t=2835gcnj&sid=2YiHMFOXdPbFpQa_AAAV HTTP/1.1" 200 -
+2025-10-20 07:36:20,216 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:36:20,219 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+2025-10-20 07:36:20,221 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "[35m[1mGET /api/reports?page=1&limit=12 HTTP/1.1[0m" 500 -
+2025-10-20 07:36:20,220 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Upgrade to websocket successful
+2025-10-20 07:36:20,226 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:36:20,233 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "[35m[1mGET /api/reports?page=1&limit=12 HTTP/1.1[0m" 500 -
+2025-10-20 07:36:20,233 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+2025-10-20 07:36:20,234 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:36:20,251 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:20] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:36:22,678 INFO engineio.server dJVrGfekKCFdhpOUAAAR: Client is gone, closing socket
+2025-10-20 07:36:22,680 INFO engineio.server dJVrGfekKCFdhpOUAAAR: Client is gone, closing socket
+2025-10-20 07:36:24,264 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:36:24,264 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:36:24,265 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:36:24,269 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:36:24,269 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:36:24,270 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:36:32,269 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:32] "OPTIONS /api/analyze-image HTTP/1.1" 200 -
+2025-10-20 07:36:32,535 INFO __main__ Detected 11 objects with average confidence: 0.780
+2025-10-20 07:36:32,657 INFO __main__ ✅ User Rasheed analyzed image: 11 detections
+2025-10-20 07:36:32,659 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:36:32] "POST /api/analyze-image HTTP/1.1" 200 -
+2025-10-20 07:36:45,180 INFO engineio.server KNb6rRpIyfquzDwBAAAU: Sending packet PING data None
+2025-10-20 07:36:45,181 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:36:45,186 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:36:49,272 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:36:49,273 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:36:49,275 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:36:49,279 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:36:49,279 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:36:49,279 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:37:10,192 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:37:10,197 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:37:14,285 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:37:14,285 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:37:14,285 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:37:14,291 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:37:14,291 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:37:14,291 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:37:22,742 INFO engineio.server KNb6rRpIyfquzDwBAAAU: Client is gone, closing socket
+2025-10-20 07:37:22,744 INFO engineio.server KNb6rRpIyfquzDwBAAAU: Client is gone, closing socket
+2025-10-20 07:37:35,202 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:37:35,204 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:37:39,296 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:37:39,296 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:37:39,298 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:37:39,298 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:37:39,299 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:37:39,299 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:38:00,210 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:38:00,213 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:38:04,301 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:38:04,302 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:38:04,302 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:38:04,305 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:38:04,305 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:38:04,306 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:38:25,218 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:38:25,221 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:38:29,309 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:38:29,310 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:38:29,311 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:38:29,312 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:38:29,312 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:38:29,313 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:38:50,227 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:38:50,228 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:38:54,312 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:38:54,313 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:38:54,316 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:38:54,317 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:38:54,318 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:38:54,318 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:39:15,232 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:39:15,253 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:39:19,319 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:39:19,320 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:39:19,324 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:39:19,327 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:39:19,332 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:39:19,345 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:39:40,264 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:39:40,266 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:39:44,338 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:39:44,338 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:39:44,340 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:39:44,340 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:39:44,348 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:39:44,349 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:40:05,269 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:40:05,271 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:40:09,351 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:40:09,351 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:40:09,351 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:40:09,354 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:40:09,354 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:40:09,356 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:40:30,281 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:40:30,283 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:40:34,366 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:40:34,367 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:40:34,367 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:40:34,368 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:40:34,368 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:40:34,368 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:40:55,286 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:40:55,288 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:40:59,374 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:40:59,374 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:40:59,376 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:40:59,377 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:40:59,377 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:40:59,378 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:41:20,292 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:41:20,294 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:41:24,388 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:41:24,389 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:41:24,389 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:41:24,391 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:41:24,391 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:41:24,391 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:41:45,301 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:41:45,303 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:41:49,400 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:41:49,401 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:41:49,401 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:41:49,403 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:41:49,404 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:41:49,404 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:42:10,312 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:42:10,317 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:42:14,413 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:42:14,413 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:42:14,413 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:42:14,416 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:42:14,416 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:42:14,417 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:42:35,320 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:42:35,322 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:42:39,422 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:42:39,424 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:42:39,428 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:42:39,428 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:42:39,429 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:42:39,430 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:43:00,333 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:43:00,336 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:43:04,432 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:43:04,434 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:43:04,436 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:43:04,437 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:43:04,440 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:43:04,441 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:43:25,344 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:43:25,346 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:43:29,436 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:43:29,438 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:43:29,444 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:43:29,445 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:43:29,448 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:43:29,449 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:43:50,353 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:43:50,355 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:43:54,449 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:43:54,449 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:43:54,451 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:43:54,451 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:43:54,454 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:43:54,455 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:44:15,333 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:44:15,339 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:44:19,426 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:44:19,427 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:44:19,429 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:44:19,429 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:44:19,430 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:44:19,432 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:44:40,329 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:44:40,331 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:44:44,431 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:44:44,432 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:44:44,432 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:44:44,434 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:44:44,434 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:44:44,434 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:45:05,336 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:45:05,339 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:45:09,438 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:45:09,438 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:45:09,438 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:45:09,441 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:45:09,441 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:45:09,442 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:45:30,343 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:45:30,345 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:45:34,442 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:45:34,444 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:45:34,447 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:45:34,447 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:45:34,448 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:45:34,449 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:45:55,349 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:45:55,351 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:45:59,449 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:45:59,450 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:45:59,451 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:45:59,451 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:45:59,452 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:45:59,453 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:46:20,352 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:46:20,355 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:46:24,455 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:46:24,457 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:46:24,457 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:46:24,458 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:46:24,459 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:46:24,460 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:46:45,360 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:46:45,367 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:46:49,464 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:46:49,468 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:46:49,469 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:46:49,470 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:46:49,471 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:46:49,472 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:47:10,368 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:47:10,370 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:47:14,474 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:47:14,475 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:47:14,476 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:47:14,477 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:47:14,481 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:47:14,483 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:47:35,381 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:47:35,389 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:47:39,484 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:47:39,485 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:47:39,490 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:47:39,491 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:47:39,492 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:47:39,495 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:48:00,390 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:48:00,398 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:48:04,500 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:48:04,501 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:48:04,505 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:48:04,506 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:48:04,506 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:48:04,512 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:48:25,406 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:48:25,408 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:48:29,517 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:48:29,517 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:48:29,517 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:48:29,519 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:48:29,520 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:48:29,520 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:48:50,410 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:48:50,416 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:48:54,522 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:48:54,523 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:48:54,524 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:48:54,536 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:48:54,537 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:48:54,537 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:49:15,424 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:49:15,431 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:49:19,547 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:49:19,548 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:49:19,548 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:49:19,562 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:49:19,562 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:49:19,562 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:49:40,441 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:49:40,443 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:49:44,568 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:49:44,570 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:49:44,572 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:49:44,573 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:49:44,574 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:49:44,575 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:50:05,450 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:50:05,453 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:50:09,577 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:50:09,579 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:50:09,585 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:50:09,585 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:50:09,588 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:50:09,590 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:50:30,464 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:50:30,466 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:50:34,584 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:50:34,586 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:50:34,597 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:50:34,598 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:50:34,599 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:50:34,600 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:50:55,478 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:50:55,491 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:50:59,595 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:50:59,599 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:50:59,602 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:50:59,602 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:50:59,606 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:50:59,606 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:51:20,492 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:51:20,495 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:51:24,602 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:51:24,607 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:51:24,608 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:51:24,609 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:51:24,613 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:51:24,614 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:51:45,501 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Sending packet PING data None
+2025-10-20 07:51:45,505 INFO engineio.server 2YiHMFOXdPbFpQa_AAAV: Received packet PONG data 
+2025-10-20 07:51:49,615 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:51:49,622 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:51:49,622 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:51:49,631 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:51:49,631 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:51:49,632 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:51:54,750 INFO __main__ ❌ Client disconnected from Socket.IO
+2025-10-20 07:51:54,756 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:54] "GET /socket.io/?EIO=4&transport=websocket&sid=2YiHMFOXdPbFpQa_AAAV HTTP/1.1" 200 -
+2025-10-20 07:51:54,967 INFO engineio.server ktLgON5jhPXR3fkLAAAX: Sending packet OPEN data {'sid': 'ktLgON5jhPXR3fkLAAAX', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-20 07:51:54,970 INFO engineio.server meDkeiGHktYga3xlAAAY: Sending packet OPEN data {'sid': 'meDkeiGHktYga3xlAAAY', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-20 07:51:54,970 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:54] "GET /socket.io/?EIO=4&transport=polling&t=2s4epodu HTTP/1.1" 200 -
+2025-10-20 07:51:54,971 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:54] "GET /socket.io/?EIO=4&transport=polling&t=2s4erj70 HTTP/1.1" 200 -
+2025-10-20 07:51:54,979 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:54] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:51:54,979 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:54] "OPTIONS /api/reports?page=1&limit=12 HTTP/1.1" 200 -
+2025-10-20 07:51:54,980 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:54] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:51:54,981 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:54] "OPTIONS /api/stats HTTP/1.1" 200 -
+2025-10-20 07:51:54,981 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:54] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:51:54,982 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:54] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:51:54,982 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:54] "OPTIONS /api/reports?page=1&limit=12 HTTP/1.1" 200 -
+2025-10-20 07:51:54,983 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:54] "OPTIONS /api/stats HTTP/1.1" 200 -
+2025-10-20 07:51:55,004 INFO engineio.server meDkeiGHktYga3xlAAAY: Received packet MESSAGE data 0
+2025-10-20 07:51:55,006 INFO __main__ ✅ Client connected to Socket.IO
+2025-10-20 07:51:55,006 INFO socketio.server emitting event "connected" to 7TovSaOjT52cHTtvAAAZ [/]
+2025-10-20 07:51:55,008 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:55] "GET /socket.io/?EIO=4&transport=polling&t=2s4fqtyy&sid=meDkeiGHktYga3xlAAAY HTTP/1.1" 200 -
+2025-10-20 07:51:55,007 INFO engineio.server meDkeiGHktYga3xlAAAY: Sending packet MESSAGE data 2["connected",{"message":"Connected to Pothole Map","timestamp":"2025-10-20T11:51:55.006887"}]
+2025-10-20 07:51:55,008 INFO engineio.server meDkeiGHktYga3xlAAAY: Received request to upgrade to websocket
+2025-10-20 07:51:55,009 INFO engineio.server meDkeiGHktYga3xlAAAY: Sending packet MESSAGE data 0{"sid":"7TovSaOjT52cHTtvAAAZ"}
+2025-10-20 07:51:55,021 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:55] "GET /socket.io/?EIO=4&transport=polling&t=2s4g561c&sid=meDkeiGHktYga3xlAAAY HTTP/1.1" 200 -
+2025-10-20 07:51:55,021 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:55] "POST /socket.io/?EIO=4&transport=polling&t=2s4fpmdj&sid=meDkeiGHktYga3xlAAAY HTTP/1.1" 200 -
+2025-10-20 07:51:55,023 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:55] "[35m[1mGET /api/reports?page=1&limit=12 HTTP/1.1[0m" 500 -
+2025-10-20 07:51:55,024 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:55] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:51:55,030 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:55] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+2025-10-20 07:51:55,031 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:55] "GET /socket.io/?EIO=4&transport=polling&t=2s4giufg&sid=meDkeiGHktYga3xlAAAY HTTP/1.1" 200 -
+2025-10-20 07:51:55,039 INFO engineio.server meDkeiGHktYga3xlAAAY: Upgrade to websocket successful
+2025-10-20 07:51:55,039 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:55] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:51:55,040 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:55] "[35m[1mGET /api/reports?page=1&limit=12 HTTP/1.1[0m" 500 -
+2025-10-20 07:51:55,045 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:55] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+2025-10-20 07:51:55,045 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:55] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:51:55,049 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:51:55] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:52:06,718 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:52:06] "OPTIONS /api/analyze-image HTTP/1.1" 200 -
+2025-10-20 07:52:06,963 INFO __main__ Detected 2 objects with average confidence: 0.407
+2025-10-20 07:52:07,076 INFO __main__ ✅ User Rasheed analyzed image: 2 detections
+2025-10-20 07:52:07,077 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:52:07] "POST /api/analyze-image HTTP/1.1" 200 -
+2025-10-20 07:52:14,637 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:52:14,638 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:52:14,638 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:52:14,648 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:52:14,649 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:52:14,649 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:52:19,975 INFO engineio.server ktLgON5jhPXR3fkLAAAX: Sending packet PING data None
+2025-10-20 07:52:19,976 INFO engineio.server meDkeiGHktYga3xlAAAY: Sending packet PING data None
+2025-10-20 07:52:19,981 INFO engineio.server meDkeiGHktYga3xlAAAY: Received packet PONG data 
+2025-10-20 07:52:39,651 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:52:39,654 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:52:39,654 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:52:39,654 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:52:39,656 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:52:39,657 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:52:43,913 INFO engineio.server ktLgON5jhPXR3fkLAAAX: Client is gone, closing socket
+2025-10-20 07:52:43,915 INFO engineio.server ktLgON5jhPXR3fkLAAAX: Client is gone, closing socket
+2025-10-20 07:52:44,986 INFO engineio.server meDkeiGHktYga3xlAAAY: Sending packet PING data None
+2025-10-20 07:52:44,988 INFO engineio.server meDkeiGHktYga3xlAAAY: Received packet PONG data 
+2025-10-20 07:53:04,082 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:53:04] "OPTIONS /api/analyze-image HTTP/1.1" 200 -
+2025-10-20 07:53:04,659 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:53:04,665 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:53:04,669 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:53:04,685 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:53:04,686 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:53:04,693 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:53:04,928 INFO __main__ Detected 9 objects with average confidence: 0.577
+2025-10-20 07:53:05,054 INFO __main__ ✅ User Rasheed analyzed image: 9 detections
+2025-10-20 07:53:05,056 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:53:05] "POST /api/analyze-image HTTP/1.1" 200 -
+2025-10-20 07:53:09,991 INFO engineio.server meDkeiGHktYga3xlAAAY: Sending packet PING data None
+2025-10-20 07:53:09,995 INFO engineio.server meDkeiGHktYga3xlAAAY: Received packet PONG data 
+2025-10-20 07:53:29,686 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:53:29,691 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:53:29,691 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:53:29,698 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:53:29,700 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:53:29,702 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:53:35,000 INFO engineio.server meDkeiGHktYga3xlAAAY: Sending packet PING data None
+2025-10-20 07:53:35,004 INFO engineio.server meDkeiGHktYga3xlAAAY: Received packet PONG data 
+2025-10-20 07:53:54,697 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:53:54,701 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:53:54,704 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:53:54,704 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:53:54,707 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:53:54,707 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:54:00,009 INFO engineio.server meDkeiGHktYga3xlAAAY: Sending packet PING data None
+2025-10-20 07:54:00,015 INFO engineio.server meDkeiGHktYga3xlAAAY: Received packet PONG data 
+2025-10-20 07:54:19,702 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:54:19,708 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:54:19,708 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:54:19,709 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:54:19,712 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:54:19,713 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:54:25,020 INFO engineio.server meDkeiGHktYga3xlAAAY: Sending packet PING data None
+2025-10-20 07:54:25,022 INFO engineio.server meDkeiGHktYga3xlAAAY: Received packet PONG data 
+2025-10-20 07:54:41,270 INFO __main__ ❌ Client disconnected from Socket.IO
+2025-10-20 07:54:41,272 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "GET /socket.io/?EIO=4&transport=websocket&sid=meDkeiGHktYga3xlAAAY HTTP/1.1" 200 -
+2025-10-20 07:54:41,401 INFO engineio.server -9QkqQDRObdXbeARAAAa: Sending packet OPEN data {'sid': '-9QkqQDRObdXbeARAAAa', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-20 07:54:41,403 INFO engineio.server dPiEn96aDQnMuCg4AAAb: Sending packet OPEN data {'sid': 'dPiEn96aDQnMuCg4AAAb', 'upgrades': ['websocket'], 'pingTimeout': 20000, 'pingInterval': 25000, 'maxPayload': 1000000}
+2025-10-20 07:54:41,403 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "GET /socket.io/?EIO=4&transport=polling&t=2vots6wn HTTP/1.1" 200 -
+2025-10-20 07:54:41,403 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "GET /socket.io/?EIO=4&transport=polling&t=2vottwnp HTTP/1.1" 200 -
+2025-10-20 07:54:41,423 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:54:41,423 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:54:41,424 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "OPTIONS /api/reports?page=1&limit=12 HTTP/1.1" 200 -
+2025-10-20 07:54:41,424 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "OPTIONS /api/stats HTTP/1.1" 200 -
+2025-10-20 07:54:41,425 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:54:41,425 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "OPTIONS /api/reports?limit=100 HTTP/1.1" 200 -
+2025-10-20 07:54:41,432 INFO engineio.server dPiEn96aDQnMuCg4AAAb: Received request to upgrade to websocket
+2025-10-20 07:54:41,450 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "OPTIONS /api/reports?page=1&limit=12 HTTP/1.1" 200 -
+2025-10-20 07:54:41,451 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "OPTIONS /api/stats HTTP/1.1" 200 -
+2025-10-20 07:54:41,452 INFO engineio.server dPiEn96aDQnMuCg4AAAb: Received packet MESSAGE data 0
+2025-10-20 07:54:41,452 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "GET /socket.io/?EIO=4&transport=polling&t=2voup07e&sid=dPiEn96aDQnMuCg4AAAb HTTP/1.1" 200 -
+2025-10-20 07:54:41,464 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "[35m[1mGET /api/reports?page=1&limit=12 HTTP/1.1[0m" 500 -
+2025-10-20 07:54:41,464 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:54:41,466 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+2025-10-20 07:54:41,566 INFO __main__ ✅ Client connected to Socket.IO
+2025-10-20 07:54:41,581 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:54:41,581 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "[35m[1mGET /api/reports?page=1&limit=12 HTTP/1.1[0m" 500 -
+2025-10-20 07:54:41,772 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:54:41,762 INFO socketio.server emitting event "connected" to Q8iv0G-jnN8p14x-AAAc [/]
+2025-10-20 07:54:41,773 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "[35m[1mGET /api/stats HTTP/1.1[0m" 500 -
+2025-10-20 07:54:41,800 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "[35m[1mGET /api/reports?limit=100 HTTP/1.1[0m" 500 -
+2025-10-20 07:54:41,805 INFO engineio.server dPiEn96aDQnMuCg4AAAb: Sending packet MESSAGE data 2["connected",{"message":"Connected to Pothole Map","timestamp":"2025-10-20T11:54:41.762590"}]
+2025-10-20 07:54:41,819 INFO engineio.server dPiEn96aDQnMuCg4AAAb: Sending packet MESSAGE data 0{"sid":"Q8iv0G-jnN8p14x-AAAc"}
+2025-10-20 07:54:41,820 INFO werkzeug 127.0.0.1 - - [20/Oct/2025 07:54:41] "POST /socket.io/?EIO=4&transport=polling&t=2voupef6&sid=dPiEn96aDQnMuCg4AAAb HTTP/1.1" 200 -
+2025-10-20 07:54:41,824 INFO engineio.server dPiEn96aDQnMuCg4AAAb: Upgrade to websocket successful
+2025-10-20 07:54:44,713 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:54:44,716 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:54:44,717 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:54:44,717 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:54:44,727 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:54:44,728 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:55:06,407 INFO engineio.server dPiEn96aDQnMuCg4AAAb: Sending packet PING data None
+2025-10-20 07:55:06,409 INFO engineio.server -9QkqQDRObdXbeARAAAa: Sending packet PING data None
+2025-10-20 07:55:06,414 INFO engineio.server dPiEn96aDQnMuCg4AAAb: Received packet PONG data 
+2025-10-20 07:55:09,721 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:55:09,724 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:55:09,732 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:55:09,732 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:55:09,734 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:55:09,734 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:55:31,419 INFO engineio.server dPiEn96aDQnMuCg4AAAb: Sending packet PING data None
+2025-10-20 07:55:31,426 INFO engineio.server dPiEn96aDQnMuCg4AAAb: Received packet PONG data 
+2025-10-20 07:55:34,730 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:55:34,735 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:55:34,736 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:55:34,739 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:55:34,741 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:55:34,741 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:55:44,164 INFO engineio.server -9QkqQDRObdXbeARAAAa: Client is gone, closing socket
+2025-10-20 07:55:44,166 INFO engineio.server -9QkqQDRObdXbeARAAAa: Client is gone, closing socket
+2025-10-20 07:55:56,432 INFO engineio.server dPiEn96aDQnMuCg4AAAb: Sending packet PING data None
+2025-10-20 07:55:56,440 INFO engineio.server dPiEn96aDQnMuCg4AAAb: Received packet PONG data 
+2025-10-20 07:55:59,736 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Sending packet PING data None
+2025-10-20 07:55:59,740 INFO engineio.server vXgN2WuMlfQ4XdThAAAC: Received packet PONG data 
+2025-10-20 07:55:59,744 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Sending packet PING data None
+2025-10-20 07:55:59,746 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Sending packet PING data None
+2025-10-20 07:55:59,750 INFO engineio.server 4EAsmVksIV8IcLarAAAB: Received packet PONG data 
+2025-10-20 07:55:59,757 INFO engineio.server iYe7LFrPUr0XOowZAAAD: Received packet PONG data 
+2025-10-20 07:56:21,442 INFO engineio.server dPiEn96aDQnMuCg4AAAb: Sending packet PING data None
+2025-10-20 07:56:21,446 INFO engineio.server dPiEn96aDQnMuCg4AAAb: Received packet PONG data 
