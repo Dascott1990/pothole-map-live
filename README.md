@@ -201,7 +201,7 @@ MIT License
 ---
 
 ## 🎨 Screenshots
-![img.png](img.png)
+![img![Screenshot.PNG](Screenshot.PNG)
 
 ### 🔐 Authentication
 ┌──────────────────────────────┐  
