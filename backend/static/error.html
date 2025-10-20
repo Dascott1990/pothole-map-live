@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Error - PotholeDetect</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        @keyframes gradient {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        .error-container {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 40px 30px;
+            border-radius: 20px;
+            text-align: center;
+            max-width: 500px;
+            width: 100%;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+            animation: fadeIn 0.5s ease-out;
+        }
+
+        .error-icon {
+            font-size: 4rem;
+            color: #e74c3c;
+            margin-bottom: 20px;
+            animation: bounce 2s infinite;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 15px;
+            font-size: 1.8rem;
+        }
+
+        p {
+            color: #7f8c8d;
+            margin-bottom: 30px;
+            line-height: 1.6;
+            font-size: 1.1rem;
+        }
+
+        .error-details {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: left;
+            font-family: monospace;
+            font-size: 0.9rem;
+            color: #495057;
+        }
+
+        .btn-group {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            background: linear-gradient(135deg, #3498db, #2c3e50);
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 10px;
+            font-size: 1rem;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: all 0.3s;
+            min-width: 140px;
+            justify-content: center;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(52, 152, 219, 0.4);
+        }
+
+        .btn-secondary {
+            background: linear-gradient(135deg, #95a5a6, #7f8c8d);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        /* Responsive design */
+        @media (max-width: 480px) {
+            .error-container {
+                padding: 30px 20px;
+            }
+
+            .error-icon {
+                font-size: 3rem;
+            }
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .btn-group {
+                flex-direction: column;
+            }
+
+            .btn {
+                width: 100%;
+            }
+        }
+
+        @media (max-width: 320px) {
+            .error-container {
+                padding: 20px 15px;
+            }
+
+            .error-icon {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-icon">
+            <i class="fas fa-exclamation-triangle"></i>
+        </div>
+        <h1>Dashboard Unavailable</h1>
+        <p>We're unable to connect to the admin dashboard at the moment. This could be due to:</p>
+
+        <div class="error-details">
+            • Dashboard service is offline<br>
+            • Network connectivity issues<br>
+            • Server maintenance in progress<br>
+            • Firewall or security restrictions
+        </div>
+
+        <p>Please try again later or contact your system administrator if the problem persists.</p>
+
+        <div class="btn-group">
+            <button class="btn" onclick="window.location.reload()">
+                <i class="fas fa-redo"></i> Try Again
+            </button>
+            <button class="btn btn-secondary" onclick="window.history.back()">
+                <i class="fas fa-arrow-left"></i> Go Back
+            </button>
+            <button class="btn btn-secondary" onclick="window.location.href = '/'">
+                <i class="fas fa-home"></i> Home Page
+            </button>
+        </div>
+    </div>
+
+    <script>
+        // Add any error-specific JavaScript here
+        console.error('Dashboard redirect failed:', window.location.href);
+
+        // Log error details for debugging
+        const errorInfo = {
+            timestamp: new Date().toISOString(),
+            userAgent: navigator.userAgent,
+            url: window.location.href,
+            referrer: document.referrer
+        };
+
+        console.table(errorInfo);
+    </script>
+</body>
+</html>
