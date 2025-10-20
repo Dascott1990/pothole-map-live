@@ -201,7 +201,9 @@ MIT License
 ---
 
 ## 🎨 Screenshots
-![Screenshot.PNG](Screenshot.PNG)
+<p align="center">
+  <img src="Screenshot.PNG" alt="AI Pothole Detection Screenshot" width="700" style="border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.2);" />
+</p>
 
 ### 🔐 Authentication
 ┌──────────────────────────────┐  
