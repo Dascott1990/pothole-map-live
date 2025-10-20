@@ -203,6 +203,11 @@ pothole-detection/
 
 ## 🛠️ Development
 
+## 📺️ Screenshots
+![Screenshot.PNG](Screenshot.PNG)
+![sreenshots.png](sreenshots.png)
+
+
 ### Running Tests
 ```bash
 # Backend tests
